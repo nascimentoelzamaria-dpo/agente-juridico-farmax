@@ -1,0 +1,129 @@
+**PLAYBOOK CONTRATUAL**
+
+**Playbook contratual - Termo aditivo**
+
+Guia operacional para análise, revisão, negociação e validação de contratos com base na minuta padrão.
+
+| **Campo** | **Informação** |
+| --- | --- |
+| Fonte analisada | Modelo - termo aditivo(1).docx |
+| Versão do playbook | v1.0 |
+| Uso recomendado | Documento interno para orientar revisão contratual e agentes de IA. Não substitui validação jurídica humana. |
+| Regra de ouro | Alterações em cláusulas sensíveis devem ser marcadas como desvio e, quando aplicável, submetidas ao jurídico. |
+
+# 1. Identificação do documento
+
+| **Item** | **Diretriz extraída da minuta** |
+| --- | --- |
+| Tipo de documento | Termo aditivo a contrato existente. |
+| Finalidade | Alterar, complementar ou prorrogar condições de contrato já celebrado, mantendo as demais cláusulas em vigor. |
+| Partes | Mesmas partes ou partes vinculadas ao contrato original. |
+| Natureza | Instrumento acessório ao contrato principal. |
+| Risco estimado | Médio/alto, pois pode alterar preço, prazo, objeto e obrigações do contrato original. |
+
+# 2. Quando usar esta minuta
+
+Quando for necessário alterar contrato já assinado.
+
+Quando houver inclusão de objeto, quantidade, prazo, valor, entrega ou condição específica.
+
+Quando se desejar ratificar as demais cláusulas do contrato original.
+
+Não usar como contrato independente sem referência ao contrato principal.
+
+# 3. Estrutura obrigatória da minuta
+
+| **Bloco / cláusula** | **Função no contrato** | **Nível de atenção** |
+| --- | --- | --- |
+| Preâmbulo e considerandos | Identifica partes, contrato original e motivo do aditivo. | Alto |
+| Objeto do aditivo | Descreve exatamente a alteração feita no contrato original. | Alto |
+| Valor/prazo/entrega | Define novos valores, quantidades, datas e condições. | Alto |
+| Ratificação | Mantém em vigor as demais cláusulas do contrato original. | Alto |
+| Assinatura digital | Formalização em plataforma eletrônica quando prevista. | Médio |
+
+# 4. Campos variáveis que devem ser preenchidos ou conferidos
+
+| **Campo variável** | **O que conferir** | **Validação recomendada** |
+| --- | --- | --- |
+| Contrato original | Data, partes, objeto e identificação do contrato aditado. | Jurídico/compras. |
+| Cláusula alterada | Indicar se altera objeto, preço, prazo, quantidade, local ou obrigação. | Jurídico/área solicitante. |
+| Novo valor | Valor total adicional ou revisado. | Financeiro/compras. |
+| Novo prazo/entrega | Data de entrega, vigência ou período aditado. | Área solicitante. |
+| Anexos/ordem de compra | OC, proposta, orçamento, termo técnico. | Compras/área solicitante. |
+
+# 5. Cláusulas que devem ser preservadas
+
+| **Cláusula** | **Padrão esperado** | **Tratamento de alteração** |
+| --- | --- | --- |
+| Referência ao contrato original | Aditivo deve indicar contrato-base e data. | Ausência é crítica. |
+| Objeto do aditivo | Alteração deve ser específica e delimitada. | Não aceitar redação vaga. |
+| Ratificação | Demais cláusulas devem permanecer em vigor. | Não remover sem análise. |
+| Assinatura | Deve seguir poderes e forma do contrato original. | Validar antes de assinar. |
+
+# 6. Pontos sensíveis e gatilhos de aprovação
+
+| **Ponto sensível** | **Risco prático** | **Quando escalar** |
+| --- | --- | --- |
+| Aditivo sem contrato-base | Pode ser interpretado como documento autônomo incompleto. | Sempre escalar. |
+| Alteração de objeto ampla | Pode descaracterizar contratação original. | Quando mudança for material. |
+| Preço/prazo sem aprovação | Risco orçamentário e operacional. | Quando houver aumento, prorrogação ou nova entrega. |
+| Sem ratificação | Pode gerar dúvida sobre vigência das demais cláusulas. | Corrigir antes de assinatura. |
+
+# 7. Padrões comerciais e operacionais extraídos
+
+| **Tema** | **Padrão identificado** | **Observação** |
+| --- | --- | --- |
+| Ratificação | Modelo ratifica as demais cláusulas do contrato original. | Essencial. |
+| Objeto | Pode incluir quantidade, período, OC e valor. | Ser específico. |
+| Entrega | Pode definir data e local. | Conferir com operação. |
+| Assinatura digital | Modelo prevê fechamento digital. | Manter se aplicável. |
+
+# 8. Checklist operacional de revisão
+
+Localizar e conferir o contrato original.
+
+Confirmar se as partes do aditivo coincidem com o contrato-base.
+
+Descrever motivo e alteração de forma objetiva.
+
+Indicar cláusulas afetadas, valores, prazos, quantidades e anexos.
+
+Validar aprovação interna para aumento de preço ou prazo.
+
+Garantir ratificação das demais cláusulas.
+
+Conferir poderes de assinatura.
+
+Arquivar aditivo junto ao contrato principal.
+
+# 9. Tabela de classificação de desvios
+
+| **Tipo de desvio** | **Exemplos** | **Classificação sugerida** |
+| --- | --- | --- |
+| Dados incompletos | CNPJ, endereço, representante, poderes de assinatura, objeto ou prazo ausentes. | Médio; crítico se impedir assinatura ou cobrança. |
+| Alteração comercial | Preço, reajuste, forma de pagamento, entrega, marcos, multa ou garantia alterados. | Médio/alto; validar com área solicitante e jurídico. |
+| Alteração jurídica sensível | Responsabilidade, indenização, rescisão, foro, confidencialidade, PI, anticorrupção. | Alto; escalar ao jurídico. |
+| Incoerência documental | Quadro-resumo, proposta, anexos e cláusulas com informações conflitantes. | Alto; corrigir antes da assinatura. |
+| Ausência de anexo essencial | Proposta, orçamento, ordem de compra, ART, apólice, lista de bens ou especificação técnica. | Médio/alto conforme impacto. |
+
+# 10. Orientações para agente revisor de contratos
+
+Comparar o contrato recebido com a minuta padrão e listar todos os desvios por cláusula.
+
+Separar desvios comerciais, jurídicos, fiscais, operacionais e de compliance.
+
+Marcar como crítico qualquer alteração em responsabilidade, indenização, sigilo, rescisão, foro, PI, anticorrupção, pagamento ou prazo.
+
+Não sugerir aceite automático de redações da contraparte sem indicar impacto e necessidade de validação.
+
+Quando houver conflito entre contrato, proposta e anexos, apontar expressamente qual documento prevalece segundo a minuta.
+
+# 11. Observações finais
+
+Não presumir autorização interna para negociar cláusulas sensíveis apenas porque a contraparte propôs alteração.
+
+Quando a minuta estiver incompleta, usar a marcação [VALIDAR COM O JURÍDICO] em vez de preencher por inferência.
+
+Conferir sempre se a minuta final mantém coerência entre quadro-resumo, cláusulas contratuais, anexos e proposta comercial.
+
+Este playbook foi criado a partir da minuta disponibilizada e deve ser atualizado quando o modelo padrão for alterado.

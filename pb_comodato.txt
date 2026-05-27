@@ -1,0 +1,133 @@
+**PLAYBOOK CONTRATUAL**
+
+**Playbook contratual - Comodato**
+
+Guia operacional para análise, revisão, negociação e validação de contratos com base na minuta padrão.
+
+| **Campo** | **Informação** |
+| --- | --- |
+| Fonte analisada | Modelo - comodato(1).docx |
+| Versão do playbook | v1.0 |
+| Uso recomendado | Documento interno para orientar revisão contratual e agentes de IA. Não substitui validação jurídica humana. |
+| Regra de ouro | Alterações em cláusulas sensíveis devem ser marcadas como desvio e, quando aplicável, submetidas ao jurídico. |
+
+# 1. Identificação do documento
+
+| **Item** | **Diretriz extraída da minuta** |
+| --- | --- |
+| Tipo de contrato | Contrato de comodato. |
+| Finalidade | Regular empréstimo gratuito de bens/equipamentos para uso exclusivo do comodatário. |
+| Partes | Comodante proprietária/possuidora do bem e comodatário que recebe a posse/uso. |
+| Natureza | Cessão gratuita de uso e gozo, com dever de conservação e devolução. |
+| Risco estimado | Médio, podendo ser alto conforme valor dos bens e criticidade operacional. |
+
+# 2. Quando usar esta minuta
+
+Quando a Farmax ceder ou receber bens/equipamentos em empréstimo gratuito.
+
+Quando for necessário definir lista de bens, uso exclusivo, conservação, devolução e responsabilidade por danos.
+
+Quando não houver compra, locação ou prestação de serviços remunerada.
+
+Não usar quando houver pagamento pelo uso do bem, pois pode caracterizar locação.
+
+# 3. Estrutura obrigatória da minuta
+
+| **Bloco / cláusula** | **Função no contrato** | **Nível de atenção** |
+| --- | --- | --- |
+| Objeto | Lista bens/equipamentos cedidos. | Alto |
+| Condições específicas | Declara posse/propriedade e entrega em perfeitas condições. | Alto |
+| Obrigações do comodatário | Conservar, guardar, usar adequadamente e não emprestar/alugar. | Alto |
+| Exclusividade | Uso exclusivo nas atividades autorizadas. | Alto |
+| Devolução | Restituição nas mesmas condições e responsabilidade por danos. | Alto |
+| Despesas e mora | Custos de uso e consequências do atraso na devolução. | Médio/alto |
+| Extinção, vigência e rescisão | Encerramento e devolução. | Alto |
+
+# 4. Campos variáveis que devem ser preenchidos ou conferidos
+
+| **Campo variável** | **O que conferir** | **Validação recomendada** |
+| --- | --- | --- |
+| Lista de bens | Descrição, número de série, estado, acessórios e valor de referência. | Área patrimonial/TI/solicitante. |
+| Comodatário | Dados completos e capacidade de assumir posse. | Jurídico/área solicitante. |
+| Finalidade de uso | Atividade autorizada e local de utilização. | Área solicitante. |
+| Prazo/vigência | Prazo determinado ou devolução mediante solicitação. | Jurídico. |
+| Condição de entrega/devolução | Termo de vistoria, fotos e acessórios. | Patrimônio/TI. |
+| Responsabilidade por despesas | Energia, manutenção, conservação, perda e danos. | Área solicitante/jurídico. |
+
+# 5. Cláusulas que devem ser preservadas
+
+| **Cláusula** | **Padrão esperado** | **Tratamento de alteração** |
+| --- | --- | --- |
+| Uso exclusivo | Bem não pode ser cedido, alugado, sublocado ou transferido sem autorização. | Alteração é sensível. |
+| Devolução | Obrigação de devolver nas mesmas condições. | Não flexibilizar sem garantia. |
+| Responsabilidade por danos | Comodatário responde por danos/prejuízos. | Redução exige validação. |
+| Extinção e rescisão | Permite retomada e encerramento. | Alteração deve ser validada. |
+| Foro e assinatura digital | Manter padrão de fechamento. | Validar se alterado. |
+
+# 6. Pontos sensíveis e gatilhos de aprovação
+
+| **Ponto sensível** | **Risco prático** | **Quando escalar** |
+| --- | --- | --- |
+| Bem de alto valor | Perda/dano pode causar impacto financeiro. | Quando lista não tiver identificação suficiente. |
+| Uso fora da finalidade | Pode gerar desgaste, perda de controle e risco patrimonial. | Quando finalidade estiver ampla. |
+| Sem vistoria | Dificulta cobrar danos na devolução. | Quando não houver termo/foto/lista de acessórios. |
+| Transferência a terceiros | Risco de perda de posse e responsabilidade. | Quando cláusula for flexibilizada. |
+
+# 7. Padrões comerciais e operacionais extraídos
+
+| **Tema** | **Padrão identificado** | **Observação** |
+| --- | --- | --- |
+| Gratuidade | Comodato pressupõe empréstimo gratuito. | Se houver pagamento, reavaliar tipo contratual. |
+| Exclusividade | Uso deve ser próprio e autorizado. | Não permitir subcomodato sem autorização. |
+| Devolução | Pode ocorrer a pedido da comodante ou por rescisão. | Definir logística. |
+| Bens | Lista deve ser precisa. | Incluir números de série quando possível. |
+
+# 8. Checklist operacional de revisão
+
+Conferir se não há remuneração pelo uso do bem.
+
+Listar todos os bens com descrição, série, estado e acessórios.
+
+Definir local e finalidade de uso.
+
+Confirmar posse/propriedade do comodante.
+
+Prever conservação, guarda e proibição de cessão a terceiros.
+
+Registrar condições de devolução e responsabilidade por danos.
+
+Verificar prazo, rescisão e mora na devolução.
+
+Anexar termo de entrega/vistoria quando aplicável.
+
+# 9. Tabela de classificação de desvios
+
+| **Tipo de desvio** | **Exemplos** | **Classificação sugerida** |
+| --- | --- | --- |
+| Dados incompletos | CNPJ, endereço, representante, poderes de assinatura, objeto ou prazo ausentes. | Médio; crítico se impedir assinatura ou cobrança. |
+| Alteração comercial | Preço, reajuste, forma de pagamento, entrega, marcos, multa ou garantia alterados. | Médio/alto; validar com área solicitante e jurídico. |
+| Alteração jurídica sensível | Responsabilidade, indenização, rescisão, foro, confidencialidade, PI, anticorrupção. | Alto; escalar ao jurídico. |
+| Incoerência documental | Quadro-resumo, proposta, anexos e cláusulas com informações conflitantes. | Alto; corrigir antes da assinatura. |
+| Ausência de anexo essencial | Proposta, orçamento, ordem de compra, ART, apólice, lista de bens ou especificação técnica. | Médio/alto conforme impacto. |
+
+# 10. Orientações para agente revisor de contratos
+
+Comparar o contrato recebido com a minuta padrão e listar todos os desvios por cláusula.
+
+Separar desvios comerciais, jurídicos, fiscais, operacionais e de compliance.
+
+Marcar como crítico qualquer alteração em responsabilidade, indenização, sigilo, rescisão, foro, PI, anticorrupção, pagamento ou prazo.
+
+Não sugerir aceite automático de redações da contraparte sem indicar impacto e necessidade de validação.
+
+Quando houver conflito entre contrato, proposta e anexos, apontar expressamente qual documento prevalece segundo a minuta.
+
+# 11. Observações finais
+
+Não presumir autorização interna para negociar cláusulas sensíveis apenas porque a contraparte propôs alteração.
+
+Quando a minuta estiver incompleta, usar a marcação [VALIDAR COM O JURÍDICO] em vez de preencher por inferência.
+
+Conferir sempre se a minuta final mantém coerência entre quadro-resumo, cláusulas contratuais, anexos e proposta comercial.
+
+Este playbook foi criado a partir da minuta disponibilizada e deve ser atualizado quando o modelo padrão for alterado.

@@ -1,0 +1,135 @@
+**PLAYBOOK CONTRATUAL**
+
+**Playbook contratual - Fornecimento**
+
+Guia operacional para análise, revisão, negociação e validação de contratos com base na minuta padrão.
+
+| **Campo** | **Informação** |
+| --- | --- |
+| Fonte analisada | Minuta - fornecimento (CLOROETIL SOLVENTES ACETICOS S.A. EM RECUPERACAO JUDICIAL)(1).docx |
+| Versão do playbook | v1.0 |
+| Uso recomendado | Documento interno para orientar revisão contratual e agentes de IA. Não substitui validação jurídica humana. |
+| Regra de ouro | Alterações em cláusulas sensíveis devem ser marcadas como desvio e, quando aplicável, submetidas ao jurídico. |
+
+# 1. Identificação do documento
+
+| **Item** | **Diretriz extraída da minuta** |
+| --- | --- |
+| Tipo de contrato | Contrato de fornecimento de produtos/insumos. |
+| Finalidade | Regular compra de item/volume estimado, pedidos/ordens de compra, fabricação, entrega, qualidade e pagamento. |
+| Partes | Farmax como compradora/contratante e fornecedora/contratada. |
+| Natureza | Fornecimento empresarial com proposta comercial integrada. |
+| Risco estimado | Médio a alto, especialmente por volume, qualidade, logística, compliance e dependência de fornecimento. |
+
+# 2. Quando usar esta minuta
+
+Quando houver compra recorrente ou programada de produtos/insumos.
+
+Quando os quantitativos puderem variar conforme ordens de compra emitidas pela Farmax.
+
+Quando houver necessidade de vincular preço, prazo de entrega, qualidade, frete, tributos e proposta comercial.
+
+Não usar para simples prestação de serviços sem entrega de produto ou obrigação de fabricação.
+
+# 3. Estrutura obrigatória da minuta
+
+| **Bloco / cláusula** | **Função no contrato** | **Nível de atenção** |
+| --- | --- | --- |
+| Objeto e proposta comercial | Define produto, volume, preço unitário/global estimado e prevalência do contrato em caso de conflito. | Alto |
+| Vigência e prazos | Define prazo de entrega e período contratual. | Alto |
+| Comunicações e atendimento | Formaliza canais e notificações. | Médio |
+| Sigilo | Protege informações empresariais e técnicas. | Alto |
+| Preço, pagamento e tributos | Define preço, faturamento, multa/juros por atraso e responsabilidades fiscais. | Alto |
+| Obrigações da contratada | Qualidade, conformidade legal, fabricação, frete/seguro/estocagem quando aplicável. | Alto |
+| Meio ambiente, anticorrupção e PI | Bloco de compliance e proteção de ativos intangíveis. | Alto |
+
+# 4. Campos variáveis que devem ser preenchidos ou conferidos
+
+| **Campo variável** | **O que conferir** | **Validação recomendada** |
+| --- | --- | --- |
+| Produto/item e código | Descrição, especificação técnica, volume total, carga mínima e preço unitário. | Área solicitante/compras. |
+| Valor global estimado | Confirmar se é estimado ou fixo e se depende de ordens de compra. | Comercial/financeiro. |
+| Prazo de faturamento/entrega | Conferir contagem em dias úteis ou corridos e gatilho inicial. | Operação/compras. |
+| Frete, seguro e estocagem | Conferir responsável por custos e riscos logísticos. | Logística/compras. |
+| Amostras e análise de qualidade | Conferir necessidade de aprovação prévia e laudo/inspeção de recebimento. | Qualidade. |
+| Proposta/anexos | Verificar se proposta está anexada e se não conflita com o contrato. | Jurídico/compras. |
+
+# 5. Cláusulas que devem ser preservadas
+
+| **Cláusula** | **Padrão esperado** | **Tratamento de alteração** |
+| --- | --- | --- |
+| Autonomia e ausência de vínculo | Relação entre empresas/prestadores sem subordinação trabalhista. | Alteração deve ser tratada como ponto sensível. |
+| Sigilo/confidencialidade | Proteção ampla de informações técnicas, comerciais, financeiras, contratuais e estratégicas. | Redução de escopo ou prazo deve ser escalada. |
+| Anticorrupção e responsabilidade social | Compromisso com legislação, integridade, boa administração e condutas lícitas. | Supressão ou flexibilização deve ser recusada ou aprovada juridicamente. |
+| Meio ambiente | Cumprimento da legislação ambiental e responsabilidade por danos. | Alteração relevante exige aprovação. |
+| Foro | Foro contratual definido na minuta padrão. | Mudança de foro deve ser validada pelo jurídico. |
+| Assinatura digital | Validação por plataforma de assinatura eletrônica/Clicksign quando prevista. | Conferir aderência ao fluxo interno de assinatura. |
+| Prevalência do contrato | Em conflito com proposta, deve prevalecer o contrato. | Alteração exige aprovação jurídica. |
+
+# 6. Pontos sensíveis e gatilhos de aprovação
+
+| **Ponto sensível** | **Risco prático** | **Quando escalar** |
+| --- | --- | --- |
+| Fornecedor em recuperação judicial | Pode gerar risco de continuidade, crédito e execução. | Sempre escalar ao jurídico/financeiro. |
+| Volume estimado vs obrigação mínima | Risco de obrigação de compra não desejada ou falta de abastecimento. | Quando houver take-or-pay, exclusividade ou mínimo obrigatório. |
+| Qualidade e conformidade sanitária | Produto inadequado pode afetar produção e regulatório. | Quando cláusulas de qualidade forem reduzidas. |
+| Frete e risco de transporte | Transferência indevida de custo ou risco para a Farmax. | Quando Incoterm/responsável não estiver claro. |
+
+# 7. Padrões comerciais e operacionais extraídos
+
+| **Tema** | **Padrão identificado** | **Observação** |
+| --- | --- | --- |
+| Pagamento | Pode haver multa de 2%, juros de 1% ao mês e correção por IGPM em atraso, se mantida redação padrão. | Confirmar se aplicável ao caso. |
+| Entrega | Modelo prevê prazo atrelado a Ordem de Compra/pedido. | Conferir se prazo é útil ou corrido. |
+| Qualidade | Amostras e análise no recebimento aparecem como mecanismos de controle. | Manter quando o produto impactar produção. |
+| Proposta comercial | Integra o contrato, mas com prevalência contratual. | Anexar versão correta. |
+
+# 8. Checklist operacional de revisão
+
+Conferir qualificação das partes e poderes de assinatura.
+
+Validar descrição completa do produto, código, volume, carga mínima e preço.
+
+Confirmar se o valor é global estimado ou obrigação firme.
+
+Verificar prazo de faturamento e prazo de entrega após Ordem de Compra.
+
+Checar responsabilidades por frete, seguro, transporte, estocagem e perdas.
+
+Confirmar exigências regulatórias, qualidade, amostras e análise no recebimento.
+
+Verificar se proposta/anexos estão anexos e sem conflito.
+
+Mapear alterações em sigilo, rescisão, foro, PI, anticorrupção, meio ambiente e responsabilidades.
+
+# 9. Tabela de classificação de desvios
+
+| **Tipo de desvio** | **Exemplos** | **Classificação sugerida** |
+| --- | --- | --- |
+| Dados incompletos | CNPJ, endereço, representante, poderes de assinatura, objeto ou prazo ausentes. | Médio; crítico se impedir assinatura ou cobrança. |
+| Alteração comercial | Preço, reajuste, forma de pagamento, entrega, marcos, multa ou garantia alterados. | Médio/alto; validar com área solicitante e jurídico. |
+| Alteração jurídica sensível | Responsabilidade, indenização, rescisão, foro, confidencialidade, PI, anticorrupção. | Alto; escalar ao jurídico. |
+| Incoerência documental | Quadro-resumo, proposta, anexos e cláusulas com informações conflitantes. | Alto; corrigir antes da assinatura. |
+| Ausência de anexo essencial | Proposta, orçamento, ordem de compra, ART, apólice, lista de bens ou especificação técnica. | Médio/alto conforme impacto. |
+
+# 10. Orientações para agente revisor de contratos
+
+Comparar o contrato recebido com a minuta padrão e listar todos os desvios por cláusula.
+
+Separar desvios comerciais, jurídicos, fiscais, operacionais e de compliance.
+
+Marcar como crítico qualquer alteração em responsabilidade, indenização, sigilo, rescisão, foro, PI, anticorrupção, pagamento ou prazo.
+
+Não sugerir aceite automático de redações da contraparte sem indicar impacto e necessidade de validação.
+
+Quando houver conflito entre contrato, proposta e anexos, apontar expressamente qual documento prevalece segundo a minuta.
+
+# 11. Observações finais
+
+Não presumir autorização interna para negociar cláusulas sensíveis apenas porque a contraparte propôs alteração.
+
+Quando a minuta estiver incompleta, usar a marcação [VALIDAR COM O JURÍDICO] em vez de preencher por inferência.
+
+Conferir sempre se a minuta final mantém coerência entre quadro-resumo, cláusulas contratuais, anexos e proposta comercial.
+
+Este playbook foi criado a partir da minuta disponibilizada e deve ser atualizado quando o modelo padrão for alterado.

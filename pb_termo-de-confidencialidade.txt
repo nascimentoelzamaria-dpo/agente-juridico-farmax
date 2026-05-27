@@ -1,0 +1,136 @@
+**PLAYBOOK CONTRATUAL**
+
+**Playbook contratual - Termo de confidencialidade e sigilo**
+
+Guia operacional para análise, revisão, negociação e validação de contratos com base na minuta padrão.
+
+| **Campo** | **Informação** |
+| --- | --- |
+| Fonte analisada | Modelo - termo de confidencialidade(1).docx e Termo de confidencialidade - GTP AUTOMATION, INTEGRATION AND DEVELOPMENT LTDA(1).docx |
+| Versão do playbook | v1.0 |
+| Uso recomendado | Documento interno para orientar revisão contratual e agentes de IA. Não substitui validação jurídica humana. |
+| Regra de ouro | Alterações em cláusulas sensíveis devem ser marcadas como desvio e, quando aplicável, submetidas ao jurídico. |
+
+# 1. Identificação do documento
+
+| **Item** | **Diretriz extraída da minuta** |
+| --- | --- |
+| Tipo de documento | Termo de confidencialidade e sigilo / NDA. |
+| Finalidade | Proteger informações confidenciais reveladas entre as partes no âmbito empresarial. |
+| Partes | Farmax e contraparte; partes podem atuar como reveladora e receptora. |
+| Natureza | Obrigação de sigilo recíproca ou bilateral, conforme redação, com definições amplas de informações. |
+| Risco estimado | Alto quando houver dados estratégicos, técnicos, comerciais, pessoais, tecnologia, fórmulas, preços ou know-how. |
+
+# 2. Quando usar esta minuta
+
+Antes de revelar informações comerciais, técnicas, jurídicas, operacionais ou estratégicas a terceiros.
+
+Quando houver reuniões, propostas, projetos, auditorias, desenvolvimento, integração, tecnologia ou prestação de serviços que exijam troca de informações.
+
+Quando a proteção de informações deve existir independentemente de contrato principal.
+
+Não usar como substituto de contrato principal de fornecimento, serviço ou parceria.
+
+# 3. Estrutura obrigatória da minuta
+
+| **Bloco / cláusula** | **Função no contrato** | **Nível de atenção** |
+| --- | --- | --- |
+| Terminologia/informações | Define informações protegidas de forma ampla. | Alto |
+| Objetivo | Proteção das informações sem impedir atividades legítimas. | Alto |
+| Definições | Reveladora e receptora; meios de transmissão e conteúdo confidencial. | Alto |
+| Extensão da responsabilidade | Obriga representantes, empregados, consultores, contratados e vinculados. | Alto |
+| Extensão da confidencialidade | Limites, exceções e uso autorizado. | Alto |
+| Guarda das informações | Dever de proteção e controle de acesso. | Alto |
+| Vigência | Prazo da obrigação de sigilo. | Alto |
+| Penalidades | Responsabilidade por violação. | Alto |
+| Foro e assinatura digital | Solução de controvérsia e formalização. | Médio/alto |
+
+# 4. Campos variáveis que devem ser preenchidos ou conferidos
+
+| **Campo variável** | **O que conferir** | **Validação recomendada** |
+| --- | --- | --- |
+| Contraparte | Razão social, CNPJ, endereço e representantes. | Jurídico/comercial. |
+| Escopo do projeto | Contexto da troca de informações. | Área solicitante. |
+| Prazo de sigilo | Prazo de vigência/obrigação pós-encerramento; padrão interno informado: 5 anos para NDA. | Jurídico. |
+| Reciprocidade | Confirmar se obrigações são bilaterais ou unilaterais. | Jurídico. |
+| Exceções | Informação pública, já conhecida, ordem legal/judicial etc. | Jurídico. |
+| Penalidades | Perdas e danos, responsabilidade civil/criminal e medidas cabíveis. | Jurídico. |
+
+# 5. Cláusulas que devem ser preservadas
+
+| **Cláusula** | **Padrão esperado** | **Tratamento de alteração** |
+| --- | --- | --- |
+| Definição ampla de informação confidencial | Inclui negócios, dados, processos, técnicas, documentos, tecnologia, fórmulas, pedidos, preços, software e know-how. | Redução exige aprovação. |
+| Obrigação por representantes e terceiros | Receptora responde por pessoas vinculadas. | Não remover. |
+| Uso limitado à finalidade | Informações não podem ser usadas para fins diversos. | Alteração é crítica. |
+| Prazo de sigilo | Usar o padrão interno de 5 anos para NDA, salvo aprovação diversa. | Alteração exige validação. |
+| Penalidades | Manter responsabilidade por violação e perdas e danos. | Não flexibilizar sem aprovação. |
+
+# 6. Pontos sensíveis e gatilhos de aprovação
+
+| **Ponto sensível** | **Risco prático** | **Quando escalar** |
+| --- | --- | --- |
+| Prazo menor que o padrão | Reduz proteção da Farmax. | Sempre escalar se inferior a 5 anos. |
+| Uso amplo das informações | Permite uso fora do projeto. | Quando finalidade não estiver delimitada. |
+| Compartilhamento com terceiros | Risco de vazamento. | Quando não exigir responsabilidade por representantes/subcontratados. |
+| Exceções amplas | Podem esvaziar o sigilo. | Quando contraparte ampliar demais exceções. |
+| Dados pessoais | Pode exigir LGPD e medidas adicionais. | Quando houver dados de pessoas físicas. |
+
+# 7. Padrões comerciais e operacionais extraídos
+
+| **Tema** | **Padrão identificado** | **Observação** |
+| --- | --- | --- |
+| Prazo padrão | Informação fornecida pela usuária: prazo padrão de NDA é 5 anos. | Aplicar como padrão interno. |
+| Definição | Modelo usa definição ampla de informações. | Preservar. |
+| Responsabilidade | Abrange representantes, procuradores, terceiros consultados, empregados, contratados e subcontratados. | Preservar. |
+| Assinatura digital | Modelo prevê assinatura eletrônica. | Confirmar fluxo. |
+
+# 8. Checklist operacional de revisão
+
+Preencher dados completos da contraparte.
+
+Definir claramente o contexto/projeto da troca de informações.
+
+Aplicar prazo padrão de 5 anos para NDA, salvo orientação contrária.
+
+Confirmar se o NDA será bilateral ou unilateral.
+
+Verificar definição de informação confidencial e exceções.
+
+Garantir uso restrito à finalidade e proibição de divulgação.
+
+Manter responsabilidade por representantes e terceiros.
+
+Escalar alterações em prazo, penalidades, exceções, foro e uso das informações.
+
+# 9. Tabela de classificação de desvios
+
+| **Tipo de desvio** | **Exemplos** | **Classificação sugerida** |
+| --- | --- | --- |
+| Prazo inferior a 5 anos | Contraparte propõe 1, 2 ou 3 anos de sigilo. | Alto; validar com jurídico. |
+| Exceções excessivas | Qualquer informação oral ou sem marcação deixa de ser confidencial. | Alto. |
+| Uso para fins próprios | Permite usar informação fora do projeto. | Crítico. |
+| Sem responsabilidade por terceiros | Representantes/subcontratados ficam fora da obrigação. | Alto. |
+| Sem penalidade | Violação sem perdas e danos/medidas cabíveis. | Alto. |
+
+# 10. Orientações para agente revisor de contratos
+
+Comparar o contrato recebido com a minuta padrão e listar todos os desvios por cláusula.
+
+Separar desvios comerciais, jurídicos, fiscais, operacionais e de compliance.
+
+Marcar como crítico qualquer alteração em responsabilidade, indenização, sigilo, rescisão, foro, PI, anticorrupção, pagamento ou prazo.
+
+Não sugerir aceite automático de redações da contraparte sem indicar impacto e necessidade de validação.
+
+Quando houver conflito entre contrato, proposta e anexos, apontar expressamente qual documento prevalece segundo a minuta.
+
+# 11. Observações finais
+
+Não presumir autorização interna para negociar cláusulas sensíveis apenas porque a contraparte propôs alteração.
+
+Quando a minuta estiver incompleta, usar a marcação [VALIDAR COM O JURÍDICO] em vez de preencher por inferência.
+
+Conferir sempre se a minuta final mantém coerência entre quadro-resumo, cláusulas contratuais, anexos e proposta comercial.
+
+Este playbook foi criado a partir da minuta disponibilizada e deve ser atualizado quando o modelo padrão for alterado.

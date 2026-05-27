@@ -1,0 +1,128 @@
+**PLAYBOOK CONTRATUAL**
+
+**Playbook contratual - Procuração**
+
+Guia operacional para análise, revisão, negociação e validação de contratos com base na minuta padrão.
+
+| **Campo** | **Informação** |
+| --- | --- |
+| Fonte analisada | Modelo - procuração(1).docx e Procuração - Suzanna(1).docx |
+| Versão do playbook | v1.0 |
+| Uso recomendado | Documento interno para orientar revisão contratual e agentes de IA. Não substitui validação jurídica humana. |
+| Regra de ouro | Alterações em cláusulas sensíveis devem ser marcadas como desvio e, quando aplicável, submetidas ao jurídico. |
+
+# 1. Identificação do documento
+
+| **Item** | **Diretriz extraída da minuta** |
+| --- | --- |
+| Tipo de documento | Procuração com poderes específicos. |
+| Finalidade | Nomear procurador para representar a outorgante perante órgão/empresa específica e praticar atos delimitados. |
+| Partes | Outorgante pessoa jurídica, representantes legais e procurador/outorgado. |
+| Natureza | Mandato com poderes específicos, validade determinada e possibilidade de revogação. |
+| Risco estimado | Médio/alto, conforme amplitude dos poderes concedidos. |
+
+# 2. Quando usar esta minuta
+
+Quando a empresa precisar autorizar terceiro ou empregado a representá-la perante órgão, concessionária ou entidade específica.
+
+Quando os poderes forem delimitados e vinculados a ato determinado.
+
+Quando houver prazo de validade e possibilidade de revogação.
+
+Não usar para poderes amplos ou operações societárias/financeiras complexas sem validação jurídica específica.
+
+# 3. Estrutura obrigatória da minuta
+
+| **Bloco / cláusula** | **Função no contrato** | **Nível de atenção** |
+| --- | --- | --- |
+| Qualificação da outorgante | Dados da empresa e representantes que assinam. | Alto |
+| Nomeação do procurador | Dados completos do outorgado. | Alto |
+| Poderes específicos | Atos que podem ser praticados e perante quem. | Alto |
+| Validade e revogação | Prazo final e revogabilidade. | Alto |
+| Assinatura digital | Formalização em plataforma eletrônica/Clicksign quando prevista. | Médio/alto |
+
+# 4. Campos variáveis que devem ser preenchidos ou conferidos
+
+| **Campo variável** | **O que conferir** | **Validação recomendada** |
+| --- | --- | --- |
+| Representantes da outorgante | Nome, cargo, CPF, RG, endereço e poderes societários. | Jurídico/societário. |
+| Procurador | Nome, estado civil, profissão, RG, CPF e endereço. | Área solicitante/jurídico. |
+| Órgão/entidade destinatária | Ex.: concessionária, órgão público, fornecedor, instituição. | Área solicitante. |
+| Poderes | Atos específicos: requerer, apresentar documentos, assinar, fornecer informações etc. | Jurídico/área solicitante. |
+| Prazo de validade | Data de início/fim e possibilidade de revogação. | Jurídico. |
+
+# 5. Cláusulas que devem ser preservadas
+
+| **Cláusula** | **Padrão esperado** | **Tratamento de alteração** |
+| --- | --- | --- |
+| Poderes específicos | Poderes devem ser claros e limitados ao objetivo. | Ampliação exige validação jurídica. |
+| Validade | Procuração deve ter prazo quando possível. | Ausência de prazo é sensível. |
+| Revogação | Deve constar possibilidade de revogação. | Não remover. |
+| Assinatura por representantes competentes | Assinantes devem ter poderes nos atos constitutivos. | Verificar antes de emitir. |
+
+# 6. Pontos sensíveis e gatilhos de aprovação
+
+| **Ponto sensível** | **Risco prático** | **Quando escalar** |
+| --- | --- | --- |
+| Poderes amplos demais | Podem autorizar atos indesejados em nome da empresa. | Sempre que usar termos genéricos como poderes ilimitados. |
+| Representante sem poderes | Risco de invalidade. | Quando atos societários não confirmarem poderes. |
+| Procurador mal qualificado | Dificulta identificação e aceite por terceiros. | Antes da assinatura. |
+| Prazo vencido | Documento pode ser recusado. | Sempre conferir validade antes do uso. |
+
+# 7. Padrões comerciais e operacionais extraídos
+
+| **Tema** | **Padrão identificado** | **Observação** |
+| --- | --- | --- |
+| Poderes | Modelo trabalha com poderes específicos para finalidade determinada. | Evitar mandato genérico. |
+| Validade | Exemplo prevê validade até data certa. | Preencher sempre que possível. |
+| Clicksign | Modelo contém declaração de assinatura eletrônica. | Manter se fluxo for digital. |
+| Revogação | Pode ser revogada pela outorgante. | Preservar. |
+
+# 8. Checklist operacional de revisão
+
+Conferir dados completos da outorgante e do procurador.
+
+Verificar se representantes têm poderes societários.
+
+Descrever destinatário e finalidade com precisão.
+
+Delimitar poderes necessários e suficientes.
+
+Definir prazo de validade.
+
+Conferir se a procuração precisa de reconhecimento, certificado, assinatura eletrônica ou formato específico aceito pelo destinatário.
+
+Evitar poderes gerais sem necessidade.
+
+Arquivar documento assinado e controlar vencimento/revogação.
+
+# 9. Tabela de classificação de desvios
+
+| **Tipo de desvio** | **Exemplos** | **Classificação sugerida** |
+| --- | --- | --- |
+| Poder genérico | Poderes amplos ou sem destinatário definido. | Alto; revisar juridicamente. |
+| Dados incompletos | CPF/RG/endereço/cargo ausentes. | Médio; corrigir antes de assinar. |
+| Validade ausente ou vencida | Procuração sem prazo ou já expirada. | Alto; emitir nova ou validar. |
+| Assinatura inadequada | Representante sem poderes ou forma não aceita pelo destinatário. | Alto; corrigir. |
+
+# 10. Orientações para agente revisor de contratos
+
+Comparar o contrato recebido com a minuta padrão e listar todos os desvios por cláusula.
+
+Separar desvios comerciais, jurídicos, fiscais, operacionais e de compliance.
+
+Marcar como crítico qualquer alteração em responsabilidade, indenização, sigilo, rescisão, foro, PI, anticorrupção, pagamento ou prazo.
+
+Não sugerir aceite automático de redações da contraparte sem indicar impacto e necessidade de validação.
+
+Quando houver conflito entre contrato, proposta e anexos, apontar expressamente qual documento prevalece segundo a minuta.
+
+# 11. Observações finais
+
+Não presumir autorização interna para negociar cláusulas sensíveis apenas porque a contraparte propôs alteração.
+
+Quando a minuta estiver incompleta, usar a marcação [VALIDAR COM O JURÍDICO] em vez de preencher por inferência.
+
+Conferir sempre se a minuta final mantém coerência entre quadro-resumo, cláusulas contratuais, anexos e proposta comercial.
+
+Este playbook foi criado a partir da minuta disponibilizada e deve ser atualizado quando o modelo padrão for alterado.

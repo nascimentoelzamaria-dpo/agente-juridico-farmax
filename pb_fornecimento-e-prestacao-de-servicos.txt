@@ -1,0 +1,136 @@
+**PLAYBOOK CONTRATUAL**
+
+**Playbook contratual - Fornecimento e prestação de serviços**
+
+Guia operacional para análise, revisão, negociação e validação de contratos com base na minuta padrão.
+
+| **Campo** | **Informação** |
+| --- | --- |
+| Fonte analisada | Zanetti(1).docx |
+| Versão do playbook | v1.0 |
+| Uso recomendado | Documento interno para orientar revisão contratual e agentes de IA. Não substitui validação jurídica humana. |
+| Regra de ouro | Alterações em cláusulas sensíveis devem ser marcadas como desvio e, quando aplicável, submetidas ao jurídico. |
+
+# 1. Identificação do documento
+
+| **Item** | **Diretriz extraída da minuta** |
+| --- | --- |
+| Tipo de contrato | Contrato híbrido de fornecimento, montagem, instalação e prestação de serviços. |
+| Finalidade | Regular aquisição de equipamento/máquina com obrigações técnicas, instalação, entrega e possível garantia. |
+| Partes | Farmax como contratante e fornecedor/prestador como contratada. |
+| Natureza | Contrato empresarial com obrigações de resultado, fornecimento de bem e execução técnica. |
+| Risco estimado | Alto, pela integração entre produto, serviço, instalação, cronograma, aceite e garantia. |
+
+# 2. Quando usar esta minuta
+
+Quando a contratação envolver entrega de equipamento/produto somada a montagem, instalação, comissionamento ou prestação técnica.
+
+Quando a proposta técnica/comercial trouxer características técnicas indispensáveis ao contrato.
+
+Quando houver marcos de pagamento vinculados à entrega, instalação ou aceite.
+
+Não usar para compra simples de insumo sem serviço relevante.
+
+# 3. Estrutura obrigatória da minuta
+
+| **Bloco / cláusula** | **Função no contrato** | **Nível de atenção** |
+| --- | --- | --- |
+| Objeto técnico | Descreve equipamento, modelo, tecnologia, componentes e serviços incluídos. | Alto |
+| Condições específicas | Define execução, recursos, riscos e dever de informar contingências. | Alto |
+| Responsabilidades e obrigações | Distribui obrigações da contratada e da contratante. | Alto |
+| Preço e pagamento | Regula valor, reajuste, tributos e vencimentos. | Alto |
+| Vigência, entrega e rescisão | Determina cronograma, hipóteses de encerramento e impactos. | Alto |
+| Entrega, multa e garantias | Ponto central para atraso, aceite, instalação e qualidade. | Alto |
+| PI, sigilo e compliance | Protege informações e tecnologia. | Alto |
+
+# 4. Campos variáveis que devem ser preenchidos ou conferidos
+
+| **Campo variável** | **O que conferir** | **Validação recomendada** |
+| --- | --- | --- |
+| Especificação do equipamento | Modelo, série, tecnologia, capacidade, componentes, proposta técnica e escopo de instalação. | Engenharia/área solicitante. |
+| Marcos de pagamento | Percentuais, gatilhos, aceite e prazo de vencimento. | Financeiro/compras. |
+| Prazo de entrega e instalação | Gatilho de contagem e data-limite. | Engenharia/compras. |
+| Garantia técnica | Prazo, escopo, peças, mão de obra, exclusões e suporte. | Engenharia/jurídico. |
+| Local de entrega/instalação | Endereço, infraestrutura necessária e responsabilidades. | Operação/engenharia. |
+| Proposta e anexos | Confirmar proposta correta e ordem de prevalência. | Jurídico/compras. |
+
+# 5. Cláusulas que devem ser preservadas
+
+| **Cláusula** | **Padrão esperado** | **Tratamento de alteração** |
+| --- | --- | --- |
+| Autonomia e ausência de vínculo | Relação entre empresas/prestadores sem subordinação trabalhista. | Alteração deve ser tratada como ponto sensível. |
+| Sigilo/confidencialidade | Proteção ampla de informações técnicas, comerciais, financeiras, contratuais e estratégicas. | Redução de escopo ou prazo deve ser escalada. |
+| Anticorrupção e responsabilidade social | Compromisso com legislação, integridade, boa administração e condutas lícitas. | Supressão ou flexibilização deve ser recusada ou aprovada juridicamente. |
+| Meio ambiente | Cumprimento da legislação ambiental e responsabilidade por danos. | Alteração relevante exige aprovação. |
+| Foro | Foro contratual definido na minuta padrão. | Mudança de foro deve ser validada pelo jurídico. |
+| Assinatura digital | Validação por plataforma de assinatura eletrônica/Clicksign quando prevista. | Conferir aderência ao fluxo interno de assinatura. |
+| Entrega e multa | Deve disciplinar atraso, aceite e consequências. | Alterações devem ser validadas pela área técnica e jurídico. |
+| Garantia | Deve proteger funcionamento e correção de vícios. | Redução de prazo/escopo é sensível. |
+
+# 6. Pontos sensíveis e gatilhos de aprovação
+
+| **Ponto sensível** | **Risco prático** | **Quando escalar** |
+| --- | --- | --- |
+| Aceite técnico | Pagamento antes de aceite pode reduzir alavanca contratual. | Quando marcos não dependem de entrega/instalação satisfatória. |
+| Atraso de equipamento | Pode impactar produção e cronograma industrial. | Quando multa ou prazo for removido/flexibilizado. |
+| Garantia limitada | Risco de custo de manutenção e indisponibilidade. | Quando garantia for reduzida ou cheia de exclusões. |
+| Integração com infraestrutura da Farmax | Risco de responsabilidade cruzada por instalação. | Quando escopo técnico estiver genérico. |
+
+# 7. Padrões comerciais e operacionais extraídos
+
+| **Tema** | **Padrão identificado** | **Observação** |
+| --- | --- | --- |
+| Pagamento | Modelo pode prever parcelas vinculadas à entrega. | Amarrar a aceite quando possível. |
+| Objeto | Descrição técnica deve ser completa e coerente com a proposta. | Evitar objeto genérico. |
+| Entrega | Atraso deve ter consequência contratual. | Definir marco inicial do prazo. |
+| Garantia | Deve contemplar equipamento e serviços de instalação. | Validar com engenharia. |
+
+# 8. Checklist operacional de revisão
+
+Conferir se o contrato combina fornecimento e serviço de forma coerente.
+
+Verificar se a descrição técnica permite cobrar a entrega esperada.
+
+Checar se proposta técnica e comercial estão anexadas.
+
+Conferir prazo de entrega, montagem, instalação e aceite.
+
+Mapear marcos de pagamento e condicionar, quando aplicável, ao cumprimento técnico.
+
+Verificar multa por atraso e garantia.
+
+Conferir obrigações de segurança, documentação técnica, licenças e normas aplicáveis.
+
+Escalar qualquer alteração em responsabilidade por vícios, atraso, garantia e aceite.
+
+# 9. Tabela de classificação de desvios
+
+| **Tipo de desvio** | **Exemplos** | **Classificação sugerida** |
+| --- | --- | --- |
+| Dados incompletos | CNPJ, endereço, representante, poderes de assinatura, objeto ou prazo ausentes. | Médio; crítico se impedir assinatura ou cobrança. |
+| Alteração comercial | Preço, reajuste, forma de pagamento, entrega, marcos, multa ou garantia alterados. | Médio/alto; validar com área solicitante e jurídico. |
+| Alteração jurídica sensível | Responsabilidade, indenização, rescisão, foro, confidencialidade, PI, anticorrupção. | Alto; escalar ao jurídico. |
+| Incoerência documental | Quadro-resumo, proposta, anexos e cláusulas com informações conflitantes. | Alto; corrigir antes da assinatura. |
+| Ausência de anexo essencial | Proposta, orçamento, ordem de compra, ART, apólice, lista de bens ou especificação técnica. | Médio/alto conforme impacto. |
+
+# 10. Orientações para agente revisor de contratos
+
+Comparar o contrato recebido com a minuta padrão e listar todos os desvios por cláusula.
+
+Separar desvios comerciais, jurídicos, fiscais, operacionais e de compliance.
+
+Marcar como crítico qualquer alteração em responsabilidade, indenização, sigilo, rescisão, foro, PI, anticorrupção, pagamento ou prazo.
+
+Não sugerir aceite automático de redações da contraparte sem indicar impacto e necessidade de validação.
+
+Quando houver conflito entre contrato, proposta e anexos, apontar expressamente qual documento prevalece segundo a minuta.
+
+# 11. Observações finais
+
+Não presumir autorização interna para negociar cláusulas sensíveis apenas porque a contraparte propôs alteração.
+
+Quando a minuta estiver incompleta, usar a marcação [VALIDAR COM O JURÍDICO] em vez de preencher por inferência.
+
+Conferir sempre se a minuta final mantém coerência entre quadro-resumo, cláusulas contratuais, anexos e proposta comercial.
+
+Este playbook foi criado a partir da minuta disponibilizada e deve ser atualizado quando o modelo padrão for alterado.

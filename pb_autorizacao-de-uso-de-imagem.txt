@@ -1,0 +1,133 @@
+**PLAYBOOK CONTRATUAL**
+
+**Playbook contratual - Autorização de uso de imagem**
+
+Guia operacional para análise, revisão, negociação e validação de contratos com base na minuta padrão.
+
+| **Campo** | **Informação** |
+| --- | --- |
+| Fonte analisada | Modelo - autorização de uso de imagem(1).docx |
+| Versão do playbook | v1.0 |
+| Uso recomendado | Documento interno para orientar revisão contratual e agentes de IA. Não substitui validação jurídica humana. |
+| Regra de ouro | Alterações em cláusulas sensíveis devem ser marcadas como desvio e, quando aplicável, submetidas ao jurídico. |
+
+# 1. Identificação do documento
+
+| **Item** | **Diretriz extraída da minuta** |
+| --- | --- |
+| Tipo de contrato | Instrumento particular de autorização de uso de imagem. |
+| Finalidade | Autorizar uso e exploração gratuita de imagem em condições delimitadas. |
+| Partes | Licenciante pessoa física e licenciada pessoa jurídica. |
+| Natureza | Licença/autorização de uso de imagem, gratuita, com escopo, prazo, território e canais. |
+| Risco estimado | Médio/alto, por envolver direitos de personalidade, imagem, marca, publicidade e reputação. |
+
+# 2. Quando usar esta minuta
+
+Quando a empresa precisar usar imagem de pessoa em registros fotográficos, campanhas, mídias sociais, sites ou canais internos.
+
+Quando a autorização for gratuita e delimitada por finalidade, território, prazo e canais.
+
+Quando a imagem não incluir autorização automática de marcas de titularidade do licenciante.
+
+Não usar para contratação de influenciador com obrigações comerciais complexas sem contrato específico.
+
+# 3. Estrutura obrigatória da minuta
+
+| **Bloco / cláusula** | **Função no contrato** | **Nível de atenção** |
+| --- | --- | --- |
+| Objeto | Define imagem autorizada, evento/data, finalidade e gratuidade. | Alto |
+| Confidencialidade | Protege dados e informações acessadas. | Médio |
+| Prazo e concessão | Define duração, território, meios e limites da autorização. | Alto |
+| Rescisão contratual | Regras de encerramento e efeitos. | Alto |
+| Obrigações da licenciada | Uso conforme autorização e limites. | Alto |
+| Propriedade intelectual | Delimita titularidades e proíbe uso de marcas não autorizadas. | Alto |
+| Foro | Solução de controvérsias. | Médio |
+
+# 4. Campos variáveis que devem ser preenchidos ou conferidos
+
+| **Campo variável** | **O que conferir** | **Validação recomendada** |
+| --- | --- | --- |
+| Dados do licenciante | Nome, nacionalidade, endereço, CPF e capacidade. | Jurídico/marketing. |
+| Imagem autorizada | Descrição dos registros, data, contexto e material. | Marketing/jurídico. |
+| Canais de uso | Mídias sociais, site, canais internos, materiais específicos. | Marketing. |
+| Território | Brasil ou outro território. | Jurídico. |
+| Prazo | Duração da autorização e possibilidade de revogação/rescisão. | Jurídico/marketing. |
+| Gratuidade/remuneração | Confirmar se é gratuito; se houver remuneração, ajustar instrumento. | Financeiro/jurídico. |
+
+# 5. Cláusulas que devem ser preservadas
+
+| **Cláusula** | **Padrão esperado** | **Tratamento de alteração** |
+| --- | --- | --- |
+| Escopo da autorização | Uso deve ficar limitado ao objeto, canais, território e prazo. | Ampliação exige nova autorização. |
+| Marcas do licenciante | Minuta ressalva que marcas não estão autorizadas. | Não remover sem análise. |
+| Gratuidade | Deve estar expressa se não houver pagamento. | Alteração exige validação. |
+| Propriedade intelectual/imagem | Preservar limites de uso e titularidade. | Alteração é sensível. |
+| Foro | Manter padrão ou validar alteração. | Validar se alterado. |
+
+# 6. Pontos sensíveis e gatilhos de aprovação
+
+| **Ponto sensível** | **Risco prático** | **Quando escalar** |
+| --- | --- | --- |
+| Uso amplo demais | Pode gerar questionamento por violação de imagem. | Quando canais/prazo/finalidade forem genéricos. |
+| Ausência de dados da pessoa | Pode invalidar ou dificultar prova de autorização. | Antes de assinatura. |
+| Uso de marca não autorizado | Risco de infração marcária. | Quando imagem contém marcas de terceiro/licenciante. |
+| Uso publicitário por terceiros | Risco de compartilhamento sem controle. | Quando houver divulgação por parceiros/agências. |
+
+# 7. Padrões comerciais e operacionais extraídos
+
+| **Tema** | **Padrão identificado** | **Observação** |
+| --- | --- | --- |
+| Gratuidade | Modelo prevê autorização gratuita. | Revisar se houver cachê ou permuta. |
+| Território | Minuta aponta uso no território brasileiro. | Ampliar apenas com aprovação. |
+| Canais | Mídias sociais, sites e canais internos podem estar incluídos. | Listar canais específicos quando possível. |
+| Imagem vs marca | Autorização de imagem não equivale a licença de marca. | Preservar distinção. |
+
+# 8. Checklist operacional de revisão
+
+Preencher dados completos do licenciante.
+
+Descrever exatamente quais imagens/registros estão autorizados.
+
+Definir finalidade, canais, território e prazo.
+
+Confirmar gratuidade ou remuneração.
+
+Checar se há marcas/logos/terceiros na imagem.
+
+Verificar autorização para uso por agências, parceiros ou terceiros, se necessário.
+
+Evitar cláusula genérica de uso irrestrito sem validação.
+
+Guardar prova de assinatura e autorização vinculada ao material usado.
+
+# 9. Tabela de classificação de desvios
+
+| **Tipo de desvio** | **Exemplos** | **Classificação sugerida** |
+| --- | --- | --- |
+| Dados incompletos | CNPJ, endereço, representante, poderes de assinatura, objeto ou prazo ausentes. | Médio; crítico se impedir assinatura ou cobrança. |
+| Alteração comercial | Preço, reajuste, forma de pagamento, entrega, marcos, multa ou garantia alterados. | Médio/alto; validar com área solicitante e jurídico. |
+| Alteração jurídica sensível | Responsabilidade, indenização, rescisão, foro, confidencialidade, PI, anticorrupção. | Alto; escalar ao jurídico. |
+| Incoerência documental | Quadro-resumo, proposta, anexos e cláusulas com informações conflitantes. | Alto; corrigir antes da assinatura. |
+| Ausência de anexo essencial | Proposta, orçamento, ordem de compra, ART, apólice, lista de bens ou especificação técnica. | Médio/alto conforme impacto. |
+
+# 10. Orientações para agente revisor de contratos
+
+Comparar o contrato recebido com a minuta padrão e listar todos os desvios por cláusula.
+
+Separar desvios comerciais, jurídicos, fiscais, operacionais e de compliance.
+
+Marcar como crítico qualquer alteração em responsabilidade, indenização, sigilo, rescisão, foro, PI, anticorrupção, pagamento ou prazo.
+
+Não sugerir aceite automático de redações da contraparte sem indicar impacto e necessidade de validação.
+
+Quando houver conflito entre contrato, proposta e anexos, apontar expressamente qual documento prevalece segundo a minuta.
+
+# 11. Observações finais
+
+Não presumir autorização interna para negociar cláusulas sensíveis apenas porque a contraparte propôs alteração.
+
+Quando a minuta estiver incompleta, usar a marcação [VALIDAR COM O JURÍDICO] em vez de preencher por inferência.
+
+Conferir sempre se a minuta final mantém coerência entre quadro-resumo, cláusulas contratuais, anexos e proposta comercial.
+
+Este playbook foi criado a partir da minuta disponibilizada e deve ser atualizado quando o modelo padrão for alterado.

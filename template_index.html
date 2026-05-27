@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agente Jurídico Farmax — Revisão de Contratos</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --ink: #1a1a2e;
+    --ink-soft: #3d3d5c;
+    --ink-muted: #7a7a9a;
+    --bg: #f5f4f0;
+    --bg-card: #fafaf7;
+    --accent: #2d4a7a;
+    --accent-light: #e8eef7;
+    --gold: #c49a3c;
+    --gold-light: #fdf6e8;
+    --red: #c0392b;
+    --red-light: #fdf0ef;
+    --yellow: #d68910;
+    --yellow-light: #fef9e7;
+    --green: #1e8449;
+    --green-light: #eafaf1;
+    --border: #e0dfd8;
+    --shadow: 0 2px 12px rgba(26,26,46,0.08);
+    --shadow-lg: 0 8px 40px rgba(26,26,46,0.14);
+    --radius: 12px;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    min-height: 100vh;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* ── Header ── */
+  header {
+    background: var(--ink);
+    color: white;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 2px solid var(--gold);
+  }
+  .logo {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    color: white;
+  }
+  .logo span { color: var(--gold); }
+  .header-tag {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.45);
+  }
+
+  /* ── Layout ── */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+
+  .page-title {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: var(--ink);
+    margin-bottom: 6px;
+    line-height: 1.2;
+  }
+  .page-subtitle {
+    color: var(--ink-muted);
+    font-size: 14px;
+    margin-bottom: 36px;
+  }
+
+  /* ── Card ── */
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 32px;
+    margin-bottom: 24px;
+  }
+  .card-title {
+    font-family: 'Fraunces', serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .card-title::before {
+    content: '';
+    width: 3px;
+    height: 18px;
+    background: var(--gold);
+    border-radius: 2px;
+    display: inline-block;
+  }
+
+  /* ── Form elements ── */
+  label {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 6px;
+  }
+  input[type="text"], input[type="password"], select {
+    width: 100%;
+    padding: 11px 14px;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    color: var(--ink);
+    background: white;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+    appearance: none;
+  }
+  input:focus, select:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(45,74,122,0.1);
+  }
+  select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%237a7a9a' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    padding-right: 36px;
+    cursor: pointer;
+  }
+
+  .form-row { margin-bottom: 20px; }
+  .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 640px) { .form-grid { grid-template-columns: 1fr; } }
+
+  .api-hint {
+    font-size: 12px;
+    color: var(--ink-muted);
+    margin-top: 5px;
+  }
+  .api-hint a { color: var(--accent); text-decoration: none; }
+  .api-hint a:hover { text-decoration: underline; }
+
+  /* ── Toggle ── */
+  .toggle-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .toggle {
+    position: relative;
+    width: 40px;
+    height: 22px;
+    flex-shrink: 0;
+  }
+  .toggle input { opacity: 0; width: 0; height: 0; }
+  .toggle-slider {
+    position: absolute;
+    inset: 0;
+    background: var(--border);
+    border-radius: 22px;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  .toggle-slider::before {
+    content: '';
+    position: absolute;
+    width: 16px; height: 16px;
+    left: 3px; bottom: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.2s;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  }
+  .toggle input:checked + .toggle-slider { background: var(--accent); }
+  .toggle input:checked + .toggle-slider::before { transform: translateX(18px); }
+  .toggle-label { font-size: 14px; color: var(--ink-soft); }
+
+  /* ── Drop zone ── */
+  .drop-zone {
+    border: 2px dashed var(--border);
+    border-radius: 10px;
+    padding: 36px 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    background: white;
+    position: relative;
+  }
+  .drop-zone:hover, .drop-zone.drag-over {
+    border-color: var(--accent);
+    background: var(--accent-light);
+  }
+  .drop-zone input[type="file"] {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+  .drop-icon { font-size: 32px; margin-bottom: 8px; }
+  .drop-text { font-size: 14px; color: var(--ink-soft); }
+  .drop-text strong { color: var(--accent); }
+  .drop-hint { font-size: 12px; color: var(--ink-muted); margin-top: 4px; }
+  .file-selected {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--accent-light);
+    border: 1.5px solid var(--accent);
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-top: 12px;
+    font-size: 13px;
+    color: var(--accent);
+    font-weight: 500;
+  }
+
+  /* ── Submit button ── */
+  .btn-analisar {
+    width: 100%;
+    padding: 15px;
+    background: var(--ink);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    letter-spacing: 0.3px;
+    margin-top: 8px;
+  }
+  .btn-analisar:hover { background: var(--accent); transform: translateY(-1px); box-shadow: var(--shadow); }
+  .btn-analisar:active { transform: translateY(0); }
+  .btn-analisar:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+  /* ── Loading ── */
+  #loading {
+    display: none;
+    text-align: center;
+    padding: 48px 24px;
+  }
+  .spinner {
+    width: 44px; height: 44px;
+    border: 3px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto 16px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loading-text { font-family: 'Fraunces', serif; font-size: 18px; color: var(--ink-soft); }
+  .loading-sub { font-size: 13px; color: var(--ink-muted); margin-top: 4px; }
+
+  /* ── Error ── */
+  .error-box {
+    display: none;
+    background: var(--red-light);
+    border: 1.5px solid #e74c3c;
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 14px;
+    color: var(--red);
+    margin-top: 16px;
+  }
+
+  /* ── Results ── */
+  #resultado { display: none; }
+
+  .result-header {
+    background: var(--ink);
+    color: white;
+    border-radius: var(--radius);
+    padding: 28px 32px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .result-header::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 4px; height: 100%;
+    background: var(--gold);
+  }
+  .result-meta {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .result-tipo {
+    font-family: 'Fraunces', serif;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 4px;
+  }
+  .result-arquivo { font-size: 12px; color: rgba(255,255,255,0.5); }
+  .result-id {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--gold);
+    font-weight: 500;
+  }
+
+  /* Recomendação badge */
+  .badge-recomendacao {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-top: 12px;
+  }
+  .badge-escalar { background: rgba(192,57,43,0.2); color: #ff8a80; border: 1px solid rgba(192,57,43,0.4); }
+  .badge-negociar { background: rgba(214,137,16,0.2); color: #ffd54f; border: 1px solid rgba(214,137,16,0.4); }
+  .badge-aprovado { background: rgba(30,132,73,0.2); color: #69f0ae; border: 1px solid rgba(30,132,73,0.4); }
+
+  /* Resumo executivo */
+  .resumo-box {
+    background: var(--gold-light);
+    border-left: 3px solid var(--gold);
+    border-radius: 0 8px 8px 0;
+    padding: 14px 18px;
+    font-size: 14px;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+
+  /* Info grid */
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .info-item {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+  }
+  .info-item-label { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--ink-muted); font-weight: 500; margin-bottom: 3px; }
+  .info-item-value { font-size: 14px; color: var(--ink); font-weight: 500; }
+
+  /* Semáforo summary */
+  .semaforo-summary {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+  .semaforo-pill {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 16px;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 500;
+    border: 1.5px solid;
+  }
+  .pill-red { background: var(--red-light); color: var(--red); border-color: #e74c3c40; }
+  .pill-yellow { background: var(--yellow-light); color: var(--yellow); border-color: #f39c1240; }
+  .pill-green { background: var(--green-light); color: var(--green); border-color: #27ae6040; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .dot-red { background: var(--red); }
+  .dot-yellow { background: var(--yellow); }
+  .dot-green { background: var(--green); }
+
+  /* Desvios */
+  .desvio {
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-bottom: 10px;
+    background: white;
+    transition: box-shadow 0.15s;
+  }
+  .desvio:hover { box-shadow: var(--shadow); }
+  .desvio-vermelho { border-left: 4px solid var(--red); }
+  .desvio-amarelo { border-left: 4px solid var(--yellow); }
+  .desvio-verde { border-left: 4px solid var(--green); }
+  .desvio-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 10px;
+  }
+  .desvio-clausula { font-weight: 600; font-size: 14px; color: var(--ink); }
+  .desvio-badge {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    border-radius: 100px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .badge-vermelho { background: var(--red-light); color: var(--red); }
+  .badge-amarelo { background: var(--yellow-light); color: var(--yellow); }
+  .badge-verde { background: var(--green-light); color: var(--green); }
+  .desvio-body { font-size: 13px; color: var(--ink-soft); line-height: 1.6; }
+  .desvio-body p { margin-bottom: 4px; }
+  .desvio-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.8px; color: var(--ink-muted); font-weight: 500; }
+  .desvio-rec {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: var(--accent-light);
+    border-radius: 6px;
+    font-size: 12px;
+    color: var(--accent);
+    display: flex;
+    gap: 6px;
+    align-items: flex-start;
+  }
+
+  /* RT & LGPD chips */
+  .compliance-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
+  @media (max-width: 600px) { .compliance-grid { grid-template-columns: 1fr; } }
+  .compliance-card {
+    border-radius: 10px;
+    padding: 16px 18px;
+    border: 1.5px solid;
+  }
+  .compliance-ok { background: var(--green-light); border-color: #27ae6040; }
+  .compliance-alerta { background: var(--yellow-light); border-color: #f39c1240; }
+  .compliance-critico { background: var(--red-light); border-color: #e74c3c40; }
+  .compliance-na { background: #f5f5f5; border-color: var(--border); }
+  .compliance-title { font-size: 12px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 5px; }
+  .compliance-ok .compliance-title { color: var(--green); }
+  .compliance-alerta .compliance-title { color: var(--yellow); }
+  .compliance-critico .compliance-title { color: var(--red); }
+  .compliance-na .compliance-title { color: var(--ink-muted); }
+  .compliance-obs { font-size: 13px; color: var(--ink-soft); }
+
+  /* Campos faltantes */
+  .campos-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .campo-tag {
+    background: var(--yellow-light);
+    color: var(--yellow);
+    border: 1px solid #f39c1230;
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  /* Print / disclaimer */
+  .disclaimer {
+    background: linear-gradient(135deg, var(--accent-light), white);
+    border: 1px solid var(--accent);
+    border-radius: 10px;
+    padding: 16px 20px;
+    font-size: 12px;
+    color: var(--ink-soft);
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    margin-top: 24px;
+  }
+  .disclaimer-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+
+  .nova-analise-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 22px;
+    background: white;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    color: var(--ink-soft);
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-top: 20px;
+  }
+  .nova-analise-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    margin-bottom: 12px;
+    margin-top: 24px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Farmax <span>Jurídico</span></div>
+  <div class="header-tag">Agente de Revisão Contratual</div>
+</header>
+
+<div class="container">
+  <div style="margin-bottom: 32px;">
+    <h1 class="page-title">Revisão de Contratos<br><em style="font-weight:300; color: var(--ink-muted);">de Terceiros</em></h1>
+    <p class="page-subtitle">Faça upload de um contrato recebido de fornecedor, prestador ou parceiro para análise automática de desvios em relação ao padrão Farmax.</p>
+  </div>
+
+  <!-- Formulário -->
+  <div id="form-section">
+    <div class="card">
+      <div class="card-title">Configuração</div>
+
+      <div class="form-row">
+        <label>Chave de API Anthropic</label>
+        <input type="password" id="api_key" placeholder="sk-ant-..." autocomplete="off">
+        <div class="api-hint">
+          Obtenha sua chave em <a href="https://console.anthropic.com" target="_blank">console.anthropic.com</a>.
+          Ela não é salva — fica apenas nesta sessão do navegador.
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Contrato para Revisão</div>
+
+      <div class="form-row">
+        <label>Tipo de Contrato</label>
+        <div class="toggle-row" style="margin-bottom: 12px;">
+          <label class="toggle">
+            <input type="checkbox" id="auto_detect" checked>
+            <span class="toggle-slider"></span>
+          </label>
+          <span class="toggle-label">Detectar automaticamente o tipo</span>
+        </div>
+        <select id="playbook_type" style="display:none;">
+          <option value="">— Selecione o tipo —</option>
+          {% for key, label in playbooks.items() %}
+          <option value="{{ key }}">{{ label }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label>Arquivo do Contrato</label>
+        <div class="drop-zone" id="drop-zone">
+          <input type="file" id="contrato" accept=".pdf,.docx">
+          <div class="drop-icon">📄</div>
+          <div class="drop-text"><strong>Clique para selecionar</strong> ou arraste aqui</div>
+          <div class="drop-hint">PDF ou DOCX — até 20 MB</div>
+        </div>
+        <div class="file-selected" id="file-selected" style="display:none;">
+          <span>📎</span>
+          <span id="file-name"></span>
+        </div>
+      </div>
+
+      <div class="error-box" id="error-box"></div>
+
+      <button class="btn-analisar" id="btn-analisar" onclick="analisar()">
+        <span>🔍</span> Analisar Contrato
+      </button>
+    </div>
+  </div>
+
+  <!-- Loading -->
+  <div id="loading">
+    <div class="spinner"></div>
+    <div class="loading-text">Analisando o contrato…</div>
+    <div class="loading-sub">O agente está comparando com os playbooks Farmax. Pode levar até 30 segundos.</div>
+  </div>
+
+  <!-- Resultado -->
+  <div id="resultado"></div>
+</div>
+
+<script>
+// Toggle auto-detect
+document.getElementById('auto_detect').addEventListener('change', function() {
+  document.getElementById('playbook_type').style.display = this.checked ? 'none' : 'block';
+});
+
+// File selection
+document.getElementById('contrato').addEventListener('change', function() {
+  const f = this.files[0];
+  if (f) {
+    document.getElementById('file-name').textContent = f.name;
+    document.getElementById('file-selected').style.display = 'flex';
+  }
+});
+
+// Drag & drop
+const dz = document.getElementById('drop-zone');
+dz.addEventListener('dragover', e => { e.preventDefault(); dz.classList.add('drag-over'); });
+dz.addEventListener('dragleave', () => dz.classList.remove('drag-over'));
+dz.addEventListener('drop', e => {
+  e.preventDefault(); dz.classList.remove('drag-over');
+  const f = e.dataTransfer.files[0];
+  if (f) {
+    const input = document.getElementById('contrato');
+    const dt = new DataTransfer();
+    dt.items.add(f);
+    input.files = dt.files;
+    document.getElementById('file-name').textContent = f.name;
+    document.getElementById('file-selected').style.display = 'flex';
+  }
+});
+
+function showError(msg) {
+  const box = document.getElementById('error-box');
+  box.textContent = msg;
+  box.style.display = 'block';
+}
+function hideError() {
+  document.getElementById('error-box').style.display = 'none';
+}
+
+async function analisar() {
+  hideError();
+  const apiKey = document.getElementById('api_key').value.trim();
+  const arquivo = document.getElementById('contrato').files[0];
+  const autoDetect = document.getElementById('auto_detect').checked;
+  const playbookType = document.getElementById('playbook_type').value;
+
+  if (!apiKey) { showError('⚠️ Informe a chave de API Anthropic antes de continuar.'); return; }
+  if (!arquivo) { showError('⚠️ Selecione um arquivo de contrato para analisar.'); return; }
+  if (!autoDetect && !playbookType) { showError('⚠️ Selecione o tipo de contrato ou ative a detecção automática.'); return; }
+
+  const fd = new FormData();
+  fd.append('api_key', apiKey);
+  fd.append('contrato', arquivo);
+  fd.append('auto_detect', autoDetect ? 'true' : 'false');
+  if (!autoDetect) fd.append('playbook_type', playbookType);
+
+  document.getElementById('form-section').style.display = 'none';
+  document.getElementById('loading').style.display = 'block';
+  document.getElementById('resultado').style.display = 'none';
+
+  try {
+    const resp = await fetch('/analisar', { method: 'POST', body: fd });
+    const data = await resp.json();
+
+    document.getElementById('loading').style.display = 'none';
+
+    if (data.erro) {
+      document.getElementById('form-section').style.display = 'block';
+      showError('❌ ' + data.erro);
+      return;
+    }
+
+    renderResultado(data);
+  } catch(e) {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('form-section').style.display = 'block';
+    showError('❌ Erro de conexão. Verifique sua internet e tente novamente.');
+  }
+}
+
+function renderResultado(d) {
+  const el = document.getElementById('resultado');
+  el.style.display = 'block';
+
+  const desvios = d.desvios || [];
+  const nVerm = desvios.filter(x => x.severidade === 'vermelho').length;
+  const nAmar = desvios.filter(x => x.severidade === 'amarelo').length;
+  const nVerd = desvios.filter(x => x.severidade === 'verde').length;
+
+  const recClass = d.recomendacao_final === 'ESCALAR_JURIDICO' ? 'badge-escalar'
+    : d.recomendacao_final === 'NEGOCIAR' ? 'badge-negociar' : 'badge-aprovado';
+  const recIcon = d.recomendacao_final === 'ESCALAR_JURIDICO' ? '🔴'
+    : d.recomendacao_final === 'NEGOCIAR' ? '🟡' : '🟢';
+  const recLabel = d.recomendacao_final === 'ESCALAR_JURIDICO' ? 'Escalar ao Jurídico'
+    : d.recomendacao_final === 'NEGOCIAR' ? 'Negociar Desvios' : 'Aprovado com Ressalvas';
+
+  // Conformidade RT
+  let rtClass = 'compliance-na', rtStatus = 'Não aplicável';
+  if (d.verificacao_rt?.aplicavel) {
+    rtClass = d.verificacao_rt.clausula_presente ? 'compliance-ok' : 'compliance-critico';
+    rtStatus = d.verificacao_rt.clausula_presente ? '✓ Cláusula presente' : '⚠ Cláusula ausente';
+  }
+
+  // Conformidade LGPD
+  let lgpdClass = 'compliance-na', lgpdStatus = 'Dados pessoais não identificados';
+  if (d.verificacao_lgpd?.dados_pessoais_identificados) {
+    lgpdClass = d.verificacao_lgpd.clausula_presente ? 'compliance-ok' : 'compliance-critico';
+    lgpdStatus = d.verificacao_lgpd.clausula_presente ? '✓ Cláusula presente' : '⚠ Cláusula ausente';
+  }
+
+  const desviosHTML = desvios.length === 0
+    ? '<p style="color:var(--ink-muted);font-size:14px;padding:20px 0;">Nenhum desvio identificado.</p>'
+    : desvios.map(dv => `
+      <div class="desvio desvio-${dv.severidade}">
+        <div class="desvio-header">
+          <span class="desvio-clausula">${dv.clausula || 'Cláusula não identificada'}</span>
+          <span class="desvio-badge badge-${dv.severidade}">${dv.severidade.toUpperCase()}</span>
+        </div>
+        <div class="desvio-body">
+          <p><span class="desvio-label">Desvio: </span>${dv.descricao || ''}</p>
+          ${dv.risco ? `<p><span class="desvio-label">Risco: </span>${dv.risco}</p>` : ''}
+          ${dv.recomendacao ? `<div class="desvio-rec">💡 <span>${dv.recomendacao}</span></div>` : ''}
+        </div>
+      </div>`).join('');
+
+  const camposHTML = (d.campos_faltantes || []).length === 0
+    ? '<span style="color:var(--ink-muted);font-size:13px;">Nenhum campo faltante identificado.</span>'
+    : `<div class="campos-list">${(d.campos_faltantes||[]).map(c => `<span class="campo-tag">⚠ ${c}</span>`).join('')}</div>`;
+
+  const partesHTML = d.partes ? `
+    <div class="info-item"><div class="info-item-label">Contratante</div><div class="info-item-value">${d.partes.contratante||'—'}</div></div>
+    <div class="info-item"><div class="info-item-label">Contratada</div><div class="info-item-value">${d.partes.contratada||'—'}</div></div>` : '';
+
+  el.innerHTML = `
+    <div class="result-header">
+      <div class="result-meta">
+        <div>
+          <div class="result-tipo">${d.tipo_identificado || 'Tipo não identificado'}</div>
+          <div class="result-arquivo">📎 ${d.arquivo || ''} · ${d.data_analise || ''}</div>
+          <div class="badge-recomendacao ${recClass}">${recIcon} ${recLabel}</div>
+        </div>
+        <div style="text-align:right;">
+          <div class="result-id">ID ${d.id_analise || ''}</div>
+          <div style="font-size:12px;color:rgba(255,255,255,0.4);margin-top:4px;">Confiança: ${d.confianca_classificacao || '—'}</div>
+        </div>
+      </div>
+    </div>
+
+    ${d.resumo_executivo ? `<div class="resumo-box">${d.resumo_executivo}</div>` : ''}
+
+    <div class="info-grid">
+      ${partesHTML}
+      <div class="info-item"><div class="info-item-label">Objeto</div><div class="info-item-value">${d.objeto||'—'}</div></div>
+      <div class="info-item"><div class="info-item-label">Valor</div><div class="info-item-value">${d.valor||'—'}</div></div>
+      <div class="info-item"><div class="info-item-label">Vigência</div><div class="info-item-value">${d.vigencia||'—'}</div></div>
+    </div>
+
+    <div class="semaforo-summary">
+      <div class="semaforo-pill pill-red"><span class="dot dot-red"></span>${nVerm} desvio${nVerm!==1?'s':''} crítico${nVerm!==1?'s':''}</div>
+      <div class="semaforo-pill pill-yellow"><span class="dot dot-yellow"></span>${nAmar} desvio${nAmar!==1?'s':''} de atenção</div>
+      <div class="semaforo-pill pill-green"><span class="dot dot-green"></span>${nVerd} desvio${nVerd!==1?'s':''} cosmético${nVerd!==1?'s':''}</div>
+    </div>
+
+    <div class="section-label">Conformidade Transversal</div>
+    <div class="compliance-grid">
+      <div class="compliance-card ${rtClass}">
+        <div class="compliance-title">⚖ Reforma Tributária</div>
+        <div style="font-size:13px;font-weight:600;margin-bottom:3px;">${rtStatus}</div>
+        <div class="compliance-obs">${d.verificacao_rt?.observacao||''}</div>
+      </div>
+      <div class="compliance-card ${lgpdClass}">
+        <div class="compliance-title">🔒 LGPD</div>
+        <div style="font-size:13px;font-weight:600;margin-bottom:3px;">${lgpdStatus}</div>
+        <div class="compliance-obs">${d.verificacao_lgpd?.observacao||''}</div>
+      </div>
+    </div>
+
+    <div class="section-label">Desvios Identificados (${desvios.length})</div>
+    ${desviosHTML}
+
+    <div class="section-label">Campos Variáveis Pendentes</div>
+    ${camposHTML}
+
+    ${d.justificativa_recomendacao ? `
+    <div class="section-label">Justificativa da Recomendação</div>
+    <div class="resumo-box">${d.justificativa_recomendacao}</div>` : ''}
+
+    <div class="disclaimer">
+      <span class="disclaimer-icon">ℹ️</span>
+      <span>Este relatório é auxiliar e <strong>não substitui a revisão jurídica humana</strong>. Todas as recomendações devem ser validadas pelo advogado responsável antes de qualquer ação ou comunicação com a contraparte.</span>
+    </div>
+
+    <button class="nova-analise-btn" onclick="novaAnalise()">← Nova Análise</button>
+  `;
+
+  el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function novaAnalise() {
+  document.getElementById('resultado').style.display = 'none';
+  document.getElementById('resultado').innerHTML = '';
+  document.getElementById('form-section').style.display = 'block';
+  document.getElementById('contrato').value = '';
+  document.getElementById('file-selected').style.display = 'none';
+  hideError();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+</body>
+</html>

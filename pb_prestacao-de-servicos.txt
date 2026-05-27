@@ -1,0 +1,136 @@
+**PLAYBOOK CONTRATUAL**
+
+**Playbook contratual - Prestação de serviços**
+
+Guia operacional para análise, revisão, negociação e validação de contratos com base na minuta padrão.
+
+| **Campo** | **Informação** |
+| --- | --- |
+| Fonte analisada | Modelo - prestação de serviços(1).docx |
+| Versão do playbook | v1.0 |
+| Uso recomendado | Documento interno para orientar revisão contratual e agentes de IA. Não substitui validação jurídica humana. |
+| Regra de ouro | Alterações em cláusulas sensíveis devem ser marcadas como desvio e, quando aplicável, submetidas ao jurídico. |
+
+# 1. Identificação do documento
+
+| **Item** | **Diretriz extraída da minuta** |
+| --- | --- |
+| Tipo de contrato | Contrato de prestação de serviços. |
+| Finalidade | Regular serviço técnico/consultivo/operacional prestado por terceiro. |
+| Partes | Farmax como contratante e prestador como contratada. |
+| Natureza | Prestação autônoma de serviços, sem vínculo empregatício. |
+| Risco estimado | Médio a alto conforme criticidade, dados acessados e impacto da entrega. |
+
+# 2. Quando usar esta minuta
+
+Quando a Farmax contratar empresa ou profissional para executar escopo de serviço definido.
+
+Quando houver proposta comercial vinculada ao escopo.
+
+Quando for necessário controlar prazo, entrega, pagamento, sigilo, responsabilidade e ausência de vínculo.
+
+Não usar para transporte de carga, obra por empreitada ou fornecimento de bens com instalação complexa.
+
+# 3. Estrutura obrigatória da minuta
+
+| **Bloco / cláusula** | **Função no contrato** | **Nível de atenção** |
+| --- | --- | --- |
+| Objeto | Define escopo, proposta e prevalência contratual. | Alto |
+| Condições específicas | Recursos, instalações, dever de informar riscos e modificações. | Médio/alto |
+| Responsabilidades e obrigações | Aloca deveres entre contratante e contratada. | Alto |
+| Preço e tributos | Valor, pagamento, reajuste, vencimento e impostos. | Alto |
+| Vigência e rescisão | Prazo, encerramento e efeitos. | Alto |
+| Indenização e ausência de vínculo | Proteção contra passivos trabalhistas/previdenciários. | Alto |
+| Sigilo, entrega e multa | Confidencialidade e penalidades por descumprimento. | Alto |
+
+# 4. Campos variáveis que devem ser preenchidos ou conferidos
+
+| **Campo variável** | **O que conferir** | **Validação recomendada** |
+| --- | --- | --- |
+| Escopo dos serviços | Descrição objetiva, entregáveis e limitações. | Área solicitante. |
+| Preço e forma de pagamento | Valor total, fixo/reajustável, vencimento, medição e tributos. | Financeiro/compras. |
+| Prazo de contrato e entrega | Duração, cronograma e gatilhos. | Área solicitante. |
+| Garantias | Verificar se há garantia de entrega ou correção. | Jurídico/área técnica. |
+| Setor solicitante | Registrar área demandante e responsável. | Compras. |
+| Proposta/anexos | Confirmar compatibilidade com o contrato. | Jurídico/compras. |
+
+# 5. Cláusulas que devem ser preservadas
+
+| **Cláusula** | **Padrão esperado** | **Tratamento de alteração** |
+| --- | --- | --- |
+| Autonomia e ausência de vínculo | Relação entre empresas/prestadores sem subordinação trabalhista. | Alteração deve ser tratada como ponto sensível. |
+| Sigilo/confidencialidade | Proteção ampla de informações técnicas, comerciais, financeiras, contratuais e estratégicas. | Redução de escopo ou prazo deve ser escalada. |
+| Anticorrupção e responsabilidade social | Compromisso com legislação, integridade, boa administração e condutas lícitas. | Supressão ou flexibilização deve ser recusada ou aprovada juridicamente. |
+| Meio ambiente | Cumprimento da legislação ambiental e responsabilidade por danos. | Alteração relevante exige aprovação. |
+| Foro | Foro contratual definido na minuta padrão. | Mudança de foro deve ser validada pelo jurídico. |
+| Assinatura digital | Validação por plataforma de assinatura eletrônica/Clicksign quando prevista. | Conferir aderência ao fluxo interno de assinatura. |
+| Indenização por passivos | Contratada deve responder por seus empregados, encargos e danos. | Redução exige aprovação jurídica. |
+| Entrega e multa | Deve haver consequência em atraso/descumprimento quando relevante. | Alteração depende do risco do serviço. |
+
+# 6. Pontos sensíveis e gatilhos de aprovação
+
+| **Ponto sensível** | **Risco prático** | **Quando escalar** |
+| --- | --- | --- |
+| Escopo genérico | Dificulta cobrança de entrega e aceite. | Quando não houver entregáveis mensuráveis. |
+| Dados/confidencialidade | Serviço pode envolver informações sensíveis. | Quando prestador acessar dados estratégicos, financeiros ou pessoais. |
+| Subcontratação | Pode aumentar risco operacional e de sigilo. | Quando permitida sem autorização. |
+| Responsabilidade por equipe | Risco trabalhista/previdenciário. | Quando ausência de vínculo/indenização for alterada. |
+
+# 7. Padrões comerciais e operacionais extraídos
+
+| **Tema** | **Padrão identificado** | **Observação** |
+| --- | --- | --- |
+| Pagamento | Pode ser fixo e não reajustável, com prazo por fatura, conforme quadro-resumo. | Confirmar caso a caso. |
+| Entrega | Prazo pode depender de entrega de informações pela Farmax e revisão interna. | Registrar dependências. |
+| Proposta | Integra o contrato e deve estar anexada. | Contrato prevalece em conflito. |
+| Sigilo | Cláusula padrão ampla. | Não reduzir sem validação. |
+
+# 8. Checklist operacional de revisão
+
+Conferir qualificação das partes e poderes.
+
+Validar escopo, entregáveis, cronograma e dependências da Farmax.
+
+Confirmar preço, reajuste, vencimento, tributos e condições de faturamento.
+
+Verificar vigência, rescisão e multas.
+
+Checar cláusulas de ausência de vínculo, indenização e responsabilidade por equipe.
+
+Conferir sigilo e tratamento de informações.
+
+Comparar proposta e contrato para identificar conflitos.
+
+Escalar alterações em PI, responsabilidade, foro, anticorrupção, rescisão e confidencialidade.
+
+# 9. Tabela de classificação de desvios
+
+| **Tipo de desvio** | **Exemplos** | **Classificação sugerida** |
+| --- | --- | --- |
+| Dados incompletos | CNPJ, endereço, representante, poderes de assinatura, objeto ou prazo ausentes. | Médio; crítico se impedir assinatura ou cobrança. |
+| Alteração comercial | Preço, reajuste, forma de pagamento, entrega, marcos, multa ou garantia alterados. | Médio/alto; validar com área solicitante e jurídico. |
+| Alteração jurídica sensível | Responsabilidade, indenização, rescisão, foro, confidencialidade, PI, anticorrupção. | Alto; escalar ao jurídico. |
+| Incoerência documental | Quadro-resumo, proposta, anexos e cláusulas com informações conflitantes. | Alto; corrigir antes da assinatura. |
+| Ausência de anexo essencial | Proposta, orçamento, ordem de compra, ART, apólice, lista de bens ou especificação técnica. | Médio/alto conforme impacto. |
+
+# 10. Orientações para agente revisor de contratos
+
+Comparar o contrato recebido com a minuta padrão e listar todos os desvios por cláusula.
+
+Separar desvios comerciais, jurídicos, fiscais, operacionais e de compliance.
+
+Marcar como crítico qualquer alteração em responsabilidade, indenização, sigilo, rescisão, foro, PI, anticorrupção, pagamento ou prazo.
+
+Não sugerir aceite automático de redações da contraparte sem indicar impacto e necessidade de validação.
+
+Quando houver conflito entre contrato, proposta e anexos, apontar expressamente qual documento prevalece segundo a minuta.
+
+# 11. Observações finais
+
+Não presumir autorização interna para negociar cláusulas sensíveis apenas porque a contraparte propôs alteração.
+
+Quando a minuta estiver incompleta, usar a marcação [VALIDAR COM O JURÍDICO] em vez de preencher por inferência.
+
+Conferir sempre se a minuta final mantém coerência entre quadro-resumo, cláusulas contratuais, anexos e proposta comercial.
+
+Este playbook foi criado a partir da minuta disponibilizada e deve ser atualizado quando o modelo padrão for alterado.

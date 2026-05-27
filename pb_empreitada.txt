@@ -1,0 +1,136 @@
+**PLAYBOOK CONTRATUAL**
+
+**Playbook contratual - Empreitada**
+
+Guia operacional para análise, revisão, negociação e validação de contratos com base na minuta padrão.
+
+| **Campo** | **Informação** |
+| --- | --- |
+| Fonte analisada | Modelo - empreitada(1).docx |
+| Versão do playbook | v1.0 |
+| Uso recomendado | Documento interno para orientar revisão contratual e agentes de IA. Não substitui validação jurídica humana. |
+| Regra de ouro | Alterações em cláusulas sensíveis devem ser marcadas como desvio e, quando aplicável, submetidas ao jurídico. |
+
+# 1. Identificação do documento
+
+| **Item** | **Diretriz extraída da minuta** |
+| --- | --- |
+| Tipo de contrato | Contrato de empreitada. |
+| Finalidade | Regular execução de obra/serviço de engenharia por resultado, com proposta técnica/comercial e, quando aplicável, ART. |
+| Partes | Farmax como contratante e empresa de construção/engenharia como contratada. |
+| Natureza | Obra/serviço técnico com obrigação de execução, prazo, garantia e responsabilidade por recursos. |
+| Risco estimado | Alto, por envolver obra, segurança, ART, danos, licenças, prazo e garantia. |
+
+# 2. Quando usar esta minuta
+
+Quando a contratação envolver obra, construção, instalação estrutural ou serviço de engenharia por resultado.
+
+Quando houver necessidade de ART/CREA/CONFEA, ensaios, recursos humanos, equipamentos e garantias.
+
+Quando a proposta técnica/comercial for parte essencial do contrato.
+
+Não usar para prestação de serviço comum sem característica de obra ou empreitada.
+
+# 3. Estrutura obrigatória da minuta
+
+| **Bloco / cláusula** | **Função no contrato** | **Nível de atenção** |
+| --- | --- | --- |
+| Quadro-resumo | Resume contratante, contratada, objeto, valor, prazo, garantia, anexos e setor solicitante. | Alto |
+| Objeto | Define obra, escopo, proposta e prevalência. | Alto |
+| COVID-19/força maior | Trata eventos excepcionais. | Médio |
+| Vigência e entrega | Define prazo de contrato e conclusão. | Alto |
+| Garantia | Período de garantia e responsabilidade por vícios. | Alto |
+| Obrigações da contratada | Recursos, ART, segurança, danos, equipe e conformidade técnica. | Alto |
+| Meio ambiente, anticorrupção, PI e foro | Blocos de compliance e proteção. | Alto |
+
+# 4. Campos variáveis que devem ser preenchidos ou conferidos
+
+| **Campo variável** | **O que conferir** | **Validação recomendada** |
+| --- | --- | --- |
+| Objeto da obra | Escopo detalhado, local, projeto, especificação técnica e proposta. | Engenharia. |
+| Valor e marcos de pagamento | Percentuais, medições, vencimentos e aceite. | Compras/financeiro/engenharia. |
+| Prazos | Prazo de contrato, prazo de entrega e cronograma. | Engenharia. |
+| Garantias | Prazo, escopo, cobertura de vícios e correções. | Jurídico/engenharia. |
+| ART e documentação técnica | Responsável técnico, CREA/CONFEA e licenças. | Engenharia/jurídico. |
+| Anexos | Orçamento, proposta, projetos, cronograma, ART e especificações. | Engenharia/compras. |
+
+# 5. Cláusulas que devem ser preservadas
+
+| **Cláusula** | **Padrão esperado** | **Tratamento de alteração** |
+| --- | --- | --- |
+| Autonomia e ausência de vínculo | Relação entre empresas/prestadores sem subordinação trabalhista. | Alteração deve ser tratada como ponto sensível. |
+| Sigilo/confidencialidade | Proteção ampla de informações técnicas, comerciais, financeiras, contratuais e estratégicas. | Redução de escopo ou prazo deve ser escalada. |
+| Anticorrupção e responsabilidade social | Compromisso com legislação, integridade, boa administração e condutas lícitas. | Supressão ou flexibilização deve ser recusada ou aprovada juridicamente. |
+| Meio ambiente | Cumprimento da legislação ambiental e responsabilidade por danos. | Alteração relevante exige aprovação. |
+| Foro | Foro contratual definido na minuta padrão. | Mudança de foro deve ser validada pelo jurídico. |
+| Assinatura digital | Validação por plataforma de assinatura eletrônica/Clicksign quando prevista. | Conferir aderência ao fluxo interno de assinatura. |
+| ART e responsabilidade técnica | Obrigação de documentação e responsabilidade técnica. | Supressão é crítica. |
+| Garantia da obra | Proteção contra vícios e falhas. | Redução exige validação técnica e jurídica. |
+
+# 6. Pontos sensíveis e gatilhos de aprovação
+
+| **Ponto sensível** | **Risco prático** | **Quando escalar** |
+| --- | --- | --- |
+| Escopo incompleto | Aumenta risco de aditivos e disputa sobre entrega. | Quando faltarem projeto, orçamento ou memorial. |
+| Sem ART/documentos | Risco regulatório, técnico e de segurança. | Sempre escalar. |
+| Pagamento antes de medição/aceite | Reduz controle sobre execução. | Quando marcos não dependem de etapa concluída. |
+| Garantia ausente | Farmax assume custo de correção de falhas. | Sempre escalar. |
+
+# 7. Padrões comerciais e operacionais extraídos
+
+| **Tema** | **Padrão identificado** | **Observação** |
+| --- | --- | --- |
+| Pagamento | Pode ser dividido por início, medição e entrega/aprovação. | Manter coerência com cronograma. |
+| Urgência | Observações podem indicar urgência do projeto. | Não retirar controles técnicos por urgência. |
+| Engenharia | Setor solicitante costuma validar escopo e aceite. | Registrar responsável interno. |
+| ART | Elemento essencial em obra/engenharia. | Exigir antes da execução quando aplicável. |
+
+# 8. Checklist operacional de revisão
+
+Conferir se a contratação é realmente empreitada e não serviço comum.
+
+Validar objeto com engenharia, incluindo escopo, projeto, local e memorial.
+
+Conferir proposta, orçamento, cronograma e anexos.
+
+Verificar ART, responsável técnico, CREA/CONFEA e normas aplicáveis.
+
+Checar valor, medições, marcos de pagamento e aceite.
+
+Confirmar prazos e penalidades por atraso.
+
+Conferir garantia, responsabilidade por danos e segurança.
+
+Escalar alterações em ART, garantia, rescisão, responsabilidade, foro e compliance.
+
+# 9. Tabela de classificação de desvios
+
+| **Tipo de desvio** | **Exemplos** | **Classificação sugerida** |
+| --- | --- | --- |
+| Dados incompletos | CNPJ, endereço, representante, poderes de assinatura, objeto ou prazo ausentes. | Médio; crítico se impedir assinatura ou cobrança. |
+| Alteração comercial | Preço, reajuste, forma de pagamento, entrega, marcos, multa ou garantia alterados. | Médio/alto; validar com área solicitante e jurídico. |
+| Alteração jurídica sensível | Responsabilidade, indenização, rescisão, foro, confidencialidade, PI, anticorrupção. | Alto; escalar ao jurídico. |
+| Incoerência documental | Quadro-resumo, proposta, anexos e cláusulas com informações conflitantes. | Alto; corrigir antes da assinatura. |
+| Ausência de anexo essencial | Proposta, orçamento, ordem de compra, ART, apólice, lista de bens ou especificação técnica. | Médio/alto conforme impacto. |
+
+# 10. Orientações para agente revisor de contratos
+
+Comparar o contrato recebido com a minuta padrão e listar todos os desvios por cláusula.
+
+Separar desvios comerciais, jurídicos, fiscais, operacionais e de compliance.
+
+Marcar como crítico qualquer alteração em responsabilidade, indenização, sigilo, rescisão, foro, PI, anticorrupção, pagamento ou prazo.
+
+Não sugerir aceite automático de redações da contraparte sem indicar impacto e necessidade de validação.
+
+Quando houver conflito entre contrato, proposta e anexos, apontar expressamente qual documento prevalece segundo a minuta.
+
+# 11. Observações finais
+
+Não presumir autorização interna para negociar cláusulas sensíveis apenas porque a contraparte propôs alteração.
+
+Quando a minuta estiver incompleta, usar a marcação [VALIDAR COM O JURÍDICO] em vez de preencher por inferência.
+
+Conferir sempre se a minuta final mantém coerência entre quadro-resumo, cláusulas contratuais, anexos e proposta comercial.
+
+Este playbook foi criado a partir da minuta disponibilizada e deve ser atualizado quando o modelo padrão for alterado.

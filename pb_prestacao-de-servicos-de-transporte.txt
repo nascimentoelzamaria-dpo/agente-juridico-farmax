@@ -1,0 +1,137 @@
+**PLAYBOOK CONTRATUAL**
+
+**Playbook contratual - Prestação de serviços de transporte**
+
+Guia operacional para análise, revisão, negociação e validação de contratos com base na minuta padrão.
+
+| **Campo** | **Informação** |
+| --- | --- |
+| Fonte analisada | Modelo - prestação de serviços de transporte(1).docx |
+| Versão do playbook | v1.0 |
+| Uso recomendado | Documento interno para orientar revisão contratual e agentes de IA. Não substitui validação jurídica humana. |
+| Regra de ouro | Alterações em cláusulas sensíveis devem ser marcadas como desvio e, quando aplicável, submetidas ao jurídico. |
+
+# 1. Identificação do documento
+
+| **Item** | **Diretriz extraída da minuta** |
+| --- | --- |
+| Tipo de contrato | Contrato de prestação de serviços de transporte de cargas / ETC. |
+| Finalidade | Regular coleta, transporte e entrega de cargas em território nacional, sem exclusividade. |
+| Partes | Farmax/Farmax Distribuidora como contratante e transportadora como contratada. |
+| Natureza | Transporte rodoviário de cargas, com referências à Lei 11.442/2007, RNTR-C e ANTT. |
+| Risco estimado | Alto, por envolver carga, sinistro, avaria, furto, extravio, seguro e obrigações fiscais. |
+
+# 2. Quando usar esta minuta
+
+Quando a Farmax contratar transportadora para coleta e entrega de cargas.
+
+Quando houver transporte sem exclusividade, com veículo próprio/arrendado ou terceiros sob responsabilidade da transportadora.
+
+Quando for necessário disciplinar seguro, sinistro, avaria, penalidades, prazo de entrega e documentação fiscal.
+
+Não usar para prestação de serviço comum sem transporte de carga.
+
+# 3. Estrutura obrigatória da minuta
+
+| **Bloco / cláusula** | **Função no contrato** | **Nível de atenção** |
+| --- | --- | --- |
+| Objeto e regulamentação | Define transporte, territorialidade, veículos, coleta/entrega e bases legais. | Alto |
+| Confidencialidade | Protege dados, documentos, estratégia e informações acessadas. | Alto |
+| Não exclusividade | Preserva liberdade da Farmax contratar outros prestadores. | Médio |
+| Prazo, vigência e rescisão | Duração e encerramento. | Alto |
+| Seguro da carga | Ponto central de proteção financeira. | Alto |
+| Sinistro, avaria, furto e extravio | Alocação de responsabilidade por perdas. | Alto |
+| Penalidades e multas | Consequências por descumprimento. | Alto |
+| Informações, fiscal e garantias | Documentos, infrações, rastreabilidade e obrigações legais. | Alto |
+
+# 4. Campos variáveis que devem ser preenchidos ou conferidos
+
+| **Campo variável** | **O que conferir** | **Validação recomendada** |
+| --- | --- | --- |
+| Abrangência territorial | Locais de coleta/entrega, rotas e regiões de atendimento. | Logística. |
+| Modalidade de contratação | SPOT, tabela, cotação, regiões e condições comerciais. | Compras/logística. |
+| Seguro | Apólice, cobertura, limite, seguradora, franquia e beneficiário. | Jurídico/logística. |
+| Prazos de entrega | SLA, contagem, penalidades por atraso e exceções. | Logística. |
+| Responsabilidades por terceiros | Subcontratação e responsabilidade integral da contratada. | Jurídico. |
+| Documentos fiscais e ANTT/RNTR-C | Licenças, registros e conformidade regulatória. | Fiscal/logística. |
+
+# 5. Cláusulas que devem ser preservadas
+
+| **Cláusula** | **Padrão esperado** | **Tratamento de alteração** |
+| --- | --- | --- |
+| Autonomia e ausência de vínculo | Relação entre empresas/prestadores sem subordinação trabalhista. | Alteração deve ser tratada como ponto sensível. |
+| Sigilo/confidencialidade | Proteção ampla de informações técnicas, comerciais, financeiras, contratuais e estratégicas. | Redução de escopo ou prazo deve ser escalada. |
+| Anticorrupção e responsabilidade social | Compromisso com legislação, integridade, boa administração e condutas lícitas. | Supressão ou flexibilização deve ser recusada ou aprovada juridicamente. |
+| Meio ambiente | Cumprimento da legislação ambiental e responsabilidade por danos. | Alteração relevante exige aprovação. |
+| Foro | Foro contratual definido na minuta padrão. | Mudança de foro deve ser validada pelo jurídico. |
+| Assinatura digital | Validação por plataforma de assinatura eletrônica/Clicksign quando prevista. | Conferir aderência ao fluxo interno de assinatura. |
+| Seguro e sinistro | Manter cobertura e responsabilidade por avaria, furto, extravio e danos. | Alteração é crítica. |
+| Penalidades | Multas por descumprimento devem ser preservadas conforme risco logístico. | Flexibilização exige validação. |
+
+# 6. Pontos sensíveis e gatilhos de aprovação
+
+| **Ponto sensível** | **Risco prático** | **Quando escalar** |
+| --- | --- | --- |
+| Seguro insuficiente | Carga pode ficar descoberta em sinistro. | Sempre que limite ou cobertura não estiver claro. |
+| Subcontratação irrestrita | Aumenta risco de perda, atraso e falha de compliance. | Quando não houver responsabilidade integral da contratada. |
+| Exclusão de responsabilidade por avaria/extravio | Transfere risco indevido à Farmax. | Sempre escalar. |
+| Licenças e registros | Transporte irregular pode gerar multa/risco regulatório. | Quando ANTT/RNTR-C ou obrigações sanitárias estiverem ausentes. |
+
+# 7. Padrões comerciais e operacionais extraídos
+
+| **Tema** | **Padrão identificado** | **Observação** |
+| --- | --- | --- |
+| Exclusividade | Modelo prevê prestação sem exclusividade. | Manter salvo aprovação comercial/jurídica. |
+| Seguro | Contrato possui cláusula própria de seguro da carga. | Conferir cobertura documental. |
+| Sinistro | Há disciplina específica para sinistro, avaria, furto e extravio. | Não deixar genérico. |
+| Fiscal | Há responsabilidade por infrações fiscais e prestação de informações. | Conferir com área fiscal. |
+
+# 8. Checklist operacional de revisão
+
+Conferir se a transportadora possui registros, licenças e capacidade operacional.
+
+Validar objeto, rotas, locais, prazos e modalidade de contratação.
+
+Exigir apólice/seguro de carga compatível.
+
+Verificar responsabilidade por subcontratados.
+
+Checar cláusulas sobre sinistro, avaria, furto, extravio e danos às instalações.
+
+Conferir penalidades, multas e SLA de entrega.
+
+Verificar obrigações fiscais e documentais.
+
+Escalar qualquer limitação de responsabilidade da transportadora.
+
+# 9. Tabela de classificação de desvios
+
+| **Tipo de desvio** | **Exemplos** | **Classificação sugerida** |
+| --- | --- | --- |
+| Dados incompletos | CNPJ, endereço, representante, poderes de assinatura, objeto ou prazo ausentes. | Médio; crítico se impedir assinatura ou cobrança. |
+| Alteração comercial | Preço, reajuste, forma de pagamento, entrega, marcos, multa ou garantia alterados. | Médio/alto; validar com área solicitante e jurídico. |
+| Alteração jurídica sensível | Responsabilidade, indenização, rescisão, foro, confidencialidade, PI, anticorrupção. | Alto; escalar ao jurídico. |
+| Incoerência documental | Quadro-resumo, proposta, anexos e cláusulas com informações conflitantes. | Alto; corrigir antes da assinatura. |
+| Ausência de anexo essencial | Proposta, orçamento, ordem de compra, ART, apólice, lista de bens ou especificação técnica. | Médio/alto conforme impacto. |
+
+# 10. Orientações para agente revisor de contratos
+
+Comparar o contrato recebido com a minuta padrão e listar todos os desvios por cláusula.
+
+Separar desvios comerciais, jurídicos, fiscais, operacionais e de compliance.
+
+Marcar como crítico qualquer alteração em responsabilidade, indenização, sigilo, rescisão, foro, PI, anticorrupção, pagamento ou prazo.
+
+Não sugerir aceite automático de redações da contraparte sem indicar impacto e necessidade de validação.
+
+Quando houver conflito entre contrato, proposta e anexos, apontar expressamente qual documento prevalece segundo a minuta.
+
+# 11. Observações finais
+
+Não presumir autorização interna para negociar cláusulas sensíveis apenas porque a contraparte propôs alteração.
+
+Quando a minuta estiver incompleta, usar a marcação [VALIDAR COM O JURÍDICO] em vez de preencher por inferência.
+
+Conferir sempre se a minuta final mantém coerência entre quadro-resumo, cláusulas contratuais, anexos e proposta comercial.
+
+Este playbook foi criado a partir da minuta disponibilizada e deve ser atualizado quando o modelo padrão for alterado.

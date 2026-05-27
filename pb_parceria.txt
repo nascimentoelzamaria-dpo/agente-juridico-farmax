@@ -1,0 +1,132 @@
+**PLAYBOOK CONTRATUAL**
+
+**Playbook contratual - Parceria**
+
+Guia operacional para análise, revisão, negociação e validação de contratos com base na minuta padrão.
+
+| **Campo** | **Informação** |
+| --- | --- |
+| Fonte analisada | Modelo - parceria(1).docx |
+| Versão do playbook | v1.0 |
+| Uso recomendado | Documento interno para orientar revisão contratual e agentes de IA. Não substitui validação jurídica humana. |
+| Regra de ouro | Alterações em cláusulas sensíveis devem ser marcadas como desvio e, quando aplicável, submetidas ao jurídico. |
+
+# 1. Identificação do documento
+
+| **Item** | **Diretriz extraída da minuta** |
+| --- | --- |
+| Tipo de contrato | Contrato de parceria. |
+| Finalidade | Regular concessão de benefícios, divulgação institucional, descontos, cursos, brindes ou ações de cooperação entre empresas. |
+| Partes | Farmax como contratante/parceira e parceiro profissional/prestador. |
+| Natureza | Parceria comercial/institucional sem vínculo empregatício e com responsabilidades autônomas. |
+| Risco estimado | Médio, podendo ser alto se envolver marca, divulgação pública, dados, brindes ou benefícios a colaboradores/clientes. |
+
+# 2. Quando usar esta minuta
+
+Quando houver cooperação institucional ou comercial com concessão de benefícios.
+
+Quando o parceiro divulgar marca/informações da Farmax em site, mural, eventos ou canais próprios.
+
+Quando a parceria envolver sorteios, brindes, descontos, cursos ou benefícios.
+
+Não usar para contratação de serviço remunerado comum ou obra.
+
+# 3. Estrutura obrigatória da minuta
+
+| **Bloco / cláusula** | **Função no contrato** | **Nível de atenção** |
+| --- | --- | --- |
+| Objeto | Define benefícios, descontos, cursos, divulgação e ações promocionais. | Alto |
+| Pagamento | Indica se há ou não remuneração/contrapartida. | Alto |
+| Vigência e rescisão | Prazo e encerramento da parceria. | Médio/alto |
+| Relacionamento entre as partes | Autonomia e ausência de vínculo. | Alto |
+| Disposições finais | Regras gerais e integração. | Médio |
+| Meio ambiente, anticorrupção e foro | Compliance e solução de conflitos. | Alto |
+
+# 4. Campos variáveis que devem ser preenchidos ou conferidos
+
+| **Campo variável** | **O que conferir** | **Validação recomendada** |
+| --- | --- | --- |
+| Benefícios concedidos | Cursos, descontos, gratuidade, critérios de elegibilidade e condições. | RH/área solicitante. |
+| Divulgação de marca | Canais, textos, logos, período, aprovação prévia. | Marketing/jurídico. |
+| Sorteios/brindes | Regras, responsabilidade, entrega, compliance promocional. | Marketing/jurídico. |
+| Contrapartidas | Se haverá pagamento, permuta, divulgação ou gratuidade. | Comercial/financeiro. |
+| Vigência | Prazo, renovação e encerramento. | Área solicitante/jurídico. |
+
+# 5. Cláusulas que devem ser preservadas
+
+| **Cláusula** | **Padrão esperado** | **Tratamento de alteração** |
+| --- | --- | --- |
+| Autonomia e ausência de vínculo | Relação entre empresas/prestadores sem subordinação trabalhista. | Alteração deve ser tratada como ponto sensível. |
+| Sigilo/confidencialidade | Proteção ampla de informações técnicas, comerciais, financeiras, contratuais e estratégicas. | Redução de escopo ou prazo deve ser escalada. |
+| Meio ambiente | Cumprimento da legislação ambiental e responsabilidade por danos. | Alteração relevante exige aprovação. |
+| Foro | Foro contratual definido na minuta padrão. | Mudança de foro deve ser validada pelo jurídico. |
+| Assinatura digital | Validação por plataforma de assinatura eletrônica/Clicksign quando prevista. | Conferir aderência ao fluxo interno de assinatura. |
+| Uso de marca/divulgação | Deve haver controle sobre uso da marca e informações da Farmax. | Qualquer ampliação exige aprovação. |
+
+# 6. Pontos sensíveis e gatilhos de aprovação
+
+| **Ponto sensível** | **Risco prático** | **Quando escalar** |
+| --- | --- | --- |
+| Uso de marca sem aprovação | Pode afetar reputação e compliance. | Sempre que marca, logo ou conteúdo forem usados publicamente. |
+| Sorteios/brindes | Podem envolver regras promocionais e responsabilidade por entrega. | Quando houver campanha pública. |
+| Benefício indeterminado | Gera expectativa sem controle de custo/entrega. | Quando critérios não forem objetivos. |
+| Parceria com pagamento disfarçado | Pode exigir contrato de prestação de serviços. | Quando houver remuneração ou obrigações típicas de serviço. |
+
+# 7. Padrões comerciais e operacionais extraídos
+
+| **Tema** | **Padrão identificado** | **Observação** |
+| --- | --- | --- |
+| Remuneração | Minuta pode prever parceria com benefícios e sem pagamento direto, conforme caso. | Confirmar se há contrapartida econômica. |
+| Marca | Divulgação institucional é parte do objeto. | Exigir aprovação prévia de materiais. |
+| Autonomia | Parceiro responde por suas atividades, empregados e regularidade. | Preservar. |
+| Vigência | Deve permitir encerramento ordenado. | Conferir prazos de aviso. |
+
+# 8. Checklist operacional de revisão
+
+Identificar se a relação é parceria ou prestação de serviços.
+
+Descrever benefícios e critérios de forma objetiva.
+
+Validar qualquer uso de marca e material de divulgação.
+
+Conferir se haverá pagamento, permuta ou obrigação econômica.
+
+Checar responsabilidade por cursos, sorteios, brindes e benefícios.
+
+Verificar prazo, rescisão e retirada de materiais após término.
+
+Preservar autonomia, ausência de vínculo e compliance.
+
+Escalar uso de dados pessoais, imagem, marca ou campanhas públicas.
+
+# 9. Tabela de classificação de desvios
+
+| **Tipo de desvio** | **Exemplos** | **Classificação sugerida** |
+| --- | --- | --- |
+| Dados incompletos | CNPJ, endereço, representante, poderes de assinatura, objeto ou prazo ausentes. | Médio; crítico se impedir assinatura ou cobrança. |
+| Alteração comercial | Preço, reajuste, forma de pagamento, entrega, marcos, multa ou garantia alterados. | Médio/alto; validar com área solicitante e jurídico. |
+| Alteração jurídica sensível | Responsabilidade, indenização, rescisão, foro, confidencialidade, PI, anticorrupção. | Alto; escalar ao jurídico. |
+| Incoerência documental | Quadro-resumo, proposta, anexos e cláusulas com informações conflitantes. | Alto; corrigir antes da assinatura. |
+| Ausência de anexo essencial | Proposta, orçamento, ordem de compra, ART, apólice, lista de bens ou especificação técnica. | Médio/alto conforme impacto. |
+
+# 10. Orientações para agente revisor de contratos
+
+Comparar o contrato recebido com a minuta padrão e listar todos os desvios por cláusula.
+
+Separar desvios comerciais, jurídicos, fiscais, operacionais e de compliance.
+
+Marcar como crítico qualquer alteração em responsabilidade, indenização, sigilo, rescisão, foro, PI, anticorrupção, pagamento ou prazo.
+
+Não sugerir aceite automático de redações da contraparte sem indicar impacto e necessidade de validação.
+
+Quando houver conflito entre contrato, proposta e anexos, apontar expressamente qual documento prevalece segundo a minuta.
+
+# 11. Observações finais
+
+Não presumir autorização interna para negociar cláusulas sensíveis apenas porque a contraparte propôs alteração.
+
+Quando a minuta estiver incompleta, usar a marcação [VALIDAR COM O JURÍDICO] em vez de preencher por inferência.
+
+Conferir sempre se a minuta final mantém coerência entre quadro-resumo, cláusulas contratuais, anexos e proposta comercial.
+
+Este playbook foi criado a partir da minuta disponibilizada e deve ser atualizado quando o modelo padrão for alterado.

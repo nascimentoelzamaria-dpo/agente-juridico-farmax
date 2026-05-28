@@ -4,7 +4,7 @@ import uuid
 import re
 from datetime import datetime
 from pathlib import Path
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_file
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
@@ -19,12 +19,12 @@ REFORMA TRIBUTARIA (LC 214/2025):
 - Contratos com vigencia > 24 meses DEVEM ter clausula de equilibrio economico-financeiro.
 - Tipos mais expostos: Fornecimento, Prestacao de Servicos, Empreitada, Transporte.
 - DESVIO VERMELHO se: preco fixo + vigencia > 12 meses + sem clausula de reajuste tributario.
-- DESVIO AMARELO se: vigencia > 12 meses + reajuste so por indice (IPCA/IGPM) sem mencionar variacao tributaria.
+- DESVIO AMARELO se: vigencia > 12 meses + reajuste so por indice sem mencionar variacao tributaria.
 
 LGPD (Lei 13.709/2018):
 - Sempre verificar se o contrato envolve tratamento de dados pessoais.
 - Se a contratada acessa dados pessoais da Farmax: clausula de OPERADOR obrigatoria.
-- Se ambas as partes trocam dados de seus proprios titulares: clausula de CONTROLADORES INDEPENDENTES.
+- Se ambas as partes trocam dados: clausula de CONTROLADORES INDEPENDENTES.
 - DESVIO VERMELHO se: contrato envolve dados pessoais + sem qualquer clausula LGPD.
 - DESVIO AMARELO se: clausula LGPD presente mas incompleta.
 - Prazo padrao de NDA: 5 anos. Inferior a 5 anos = DESVIO VERMELHO.
@@ -125,10 +125,10 @@ PLAYBOOK DE REFERENCIA:
 REGRAS:
 1. Compare o contrato com o padrao do playbook.
 2. Classifique cada desvio:
-   - vermelho: risco alto (responsabilidade excluida, foro alterado, LGPD ausente com dados pessoais, anticorrupcao suprimida, preco fixo maior que 12 meses sem clausula tributaria).
-   - amarelo: atencao (garantia reduzida, escopo generico, LGPD incompleta, reajuste sem reforma tributaria).
-   - verde: cosmetico/baixo impacto.
-3. Verifique SEMPRE clausula de Reforma Tributaria (vigencia maior que 12 meses + preco fixo) e LGPD (dados pessoais).
+   - vermelho: risco alto
+   - amarelo: atencao
+   - verde: cosmetico/baixo impacto
+3. Verifique SEMPRE clausula de Reforma Tributaria e LGPD.
 4. NUNCA sugira aceite automatico de clausula divergente.
 
 RESPONDA EXCLUSIVAMENTE em JSON valido, sem texto fora do JSON:
@@ -165,16 +165,12 @@ RESPONDA EXCLUSIVAMENTE em JSON valido, sem texto fora do JSON:
   "justificativa_recomendacao": "explicacao da recomendacao final"
 }}"""
 
-HTML_TEMPLATE = open(BASE_DIR / "template_index.html", encoding="utf-8").read() if (BASE_DIR / "template_index.html").exists() else "<h1>Template nao encontrado</h1>"
-
 @app.route("/")
 def index():
-    options = "".join(f'<option value="{k}">{v}</option>' for k, v in PLAYBOOK_LABELS.items())
-    html = HTML_TEMPLATE.replace(
-        '{% for key, label in playbooks.items() %}\n          <option value="{{ key }}">{{ label }}</option>\n          {% endfor %}',
-        options
-    )
-    return html
+    html_path = BASE_DIR / "index_static.html"
+    if html_path.exists():
+        return send_file(str(html_path))
+    return "<h1>Sistema Agente Juridico Farmax</h1><p>Arquivo de interface nao encontrado.</p>", 500
 
 @app.route("/analisar", methods=["POST"])
 def analisar():
